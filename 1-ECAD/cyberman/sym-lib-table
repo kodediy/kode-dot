@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "0_MCU_Espressif")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_MCU_Espressif.kicad_sym")(options "")(descr ""))
+)

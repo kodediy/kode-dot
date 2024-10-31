@@ -12673,7 +12673,7 @@
 		)
 		(height -41)
 		(orientation 1)
-		(gr_text "35.00"
+		(gr_text "35,00"
 			(at 106.35 107.5 90)
 			(layer "User.8")
 			(uuid "6c571d1b-0ff3-4bc0-8284-c76f6b661058")
@@ -12707,7 +12707,7 @@
 		)
 		(height 5.5)
 		(orientation 0)
-		(gr_text "35.00"
+		(gr_text "35,00"
 			(at 131 129.35 0)
 			(layer "User.8")
 			(uuid "843235eb-3585-4a4c-b10d-86b766ed1b7d")
@@ -12741,7 +12741,7 @@
 		)
 		(height 5.5)
 		(orientation 0)
-		(gr_text "35.00"
+		(gr_text "35,00"
 			(at 131 129.35 0)
 			(layer "User.9")
 			(uuid "5001d6b6-ffa7-4d67-8e7a-20a7807d274d")
@@ -12776,7 +12776,7 @@
 		)
 		(height -41)
 		(orientation 1)
-		(gr_text "35.00"
+		(gr_text "35,00"
 			(at 106.35 107.5 90)
 			(layer "User.9")
 			(uuid "9154b74d-9822-4f4d-9383-8ce6a573aa4a")
