@@ -643,16 +643,12 @@
       "Project Architecture"
     ],
     [
-      "7d5a1283-086b-46b0-8df7-a9850521fb5e",
-      "Section A - Title A"
+      "e46a9372-83c8-4117-b39c-2866170a3986",
+      "MCU - Power"
     ],
     [
-      "e6015f1e-cbce-46f4-85e1-3d5463a17dc1",
-      "Section B - Title B"
-    ],
-    [
-      "13eb0b07-00a1-4d61-8da3-582545eb29a8",
-      "Power - Sequencing"
+      "f69eb858-8fbb-4698-966f-1f20cc90f168",
+      "MCU - IOs"
     ],
     [
       "e7c91631-be85-488a-af7a-f2a810f3fbfe",
@@ -660,11 +656,11 @@
     ]
   ],
   "text_variables": {
-    "BOARD_NAME": "Board Name",
-    "COMPANY": "Company Name",
-    "DESIGNER": "Designer Name",
+    "BOARD_NAME": "Cyberman",
+    "COMPANY": "kode.",
+    "DESIGNER": "Manuel Quero",
     "DOC_TYPE": "Fabrication",
-    "PROJECT_NAME": "Project Name",
+    "PROJECT_NAME": "kode dot",
     "RELEASE_DATE": "Release Date",
     "REVIEWER": "Reviewer Name",
     "REVISION": "Revision Number",
