@@ -2438,6 +2438,28 @@
 		)
 		(uuid "451ddc49-1d75-41f6-8a54-482a5c8c4728")
 	)
+	(text_box "DESIGN NOTE:\nVoltage of VDD_SPI is 1.8V"
+		(exclude_from_sim no)
+		(at 63.5 92.71 0)
+		(size 30.48 20.32)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5200bb30-4497-4c27-bf4b-9144dfd438b1")
+	)
 	(text_box "DESIGN NOTE:\nAdd ESD protection diode at the power entrance."
 		(exclude_from_sim no)
 		(at 63.5 43.18 0)
