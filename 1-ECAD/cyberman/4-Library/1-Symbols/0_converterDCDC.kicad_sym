@@ -2,12 +2,12 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "R940000171"
+	(symbol "LM3281YFQR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "X"
-			(at 3.81 6.35 0)
+		(property "Reference" "U"
+			(at 0 1.27 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -16,8 +16,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "40 MHz"
-			(at 3.81 3.81 0)
+		(property "Value" "LM3281YFQR"
+			(at 0 -11.43 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -27,15 +27,6 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2201121400_TROQ-R940000171_C2929402.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40MHz Surface Mount Crystal 9pF ±10ppm ±10ppm SMD2016-4P"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3281.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53,7 +44,7 @@
 				(hide yes)
 			)
 		)
-		(property "kode PN" "DOTX001"
+		(property "Description" "IC REG BUCK 3.3V 1.2A 6DSBGA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62,7 +53,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TROQ"
+		(property "kode PN" "DOTCU004"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71,7 +62,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "R940000171"
+		(property "Manufacturer" "Texas Instrument"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "LM3281YFQR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -89,7 +89,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN 1" "C2929402"
+		(property "Suplier 1 PN" "C2070970"
 			(at 0 0 0)
 			(effects
 				(font
@@ -98,7 +98,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "40MHz Surface Mount Crystal 9pF ±10ppm ±10ppm SMD2016-4P"
+		(property "ki_keywords" "DCDC, converter, TI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -107,127 +107,63 @@
 				(hide yes)
 			)
 		)
-		(symbol "R940000171_0_1"
+		(symbol "LM3281YFQR_0_1"
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 7.62 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.78 0) (xy 17.78 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LM3281YFQR_1_1"
 			(rectangle
-				(start -1.143 2.54)
-				(end 1.143 -2.54)
-				(stroke
-					(width 0.3048)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -2.032 0)
-				)
+				(start 0 0)
+				(end 25.4 -10.16)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -2.032 -1.27) (xy -2.032 1.27)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
+			(text "DC-DC"
+				(at 12.7 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
-			(polyline
-				(pts
-					(xy 0 -3.81) (xy 0 -3.556)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.556) (xy 0 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.032 -1.27) (xy 2.032 1.27)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.032 0) (xy 2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "R940000171_1_1"
 			(pin unspecified line
-				(at -3.81 0 0)
-				(length 1.27)
-				(name ""
+				(at 27.94 -5.08 180)
+				(length 2.54)
+				(name "FB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -236,34 +172,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 5.08 270)
-				(length 1.27)
-				(name ""
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 3.81 0 180)
-				(length 1.27)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
+				(number "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -272,16 +190,70 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -5.08 90)
-				(length 1.27)
-				(name ""
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "MODE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27.94 -2.54 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27.94 -7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
 					(effects
 						(font
 							(size 1.27 1.27)

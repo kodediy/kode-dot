@@ -3,4 +3,7 @@
   (lib (name "0_resistor_smd")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_resistor_smd.kicad_sym")(options "")(descr ""))
   (lib (name "0_mcu_espressif")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_mcu_espressif.kicad_sym")(options "")(descr ""))
   (lib (name "0_crystal_smd")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_crystal_smd.kicad_sym")(options "")(descr ""))
+  (lib (name "0_CI_smd")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_CI_smd.kicad_sym")(options "")(descr ""))
+  (lib (name "0_connector_smd")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_connector_smd.kicad_sym")(options "")(descr ""))
+  (lib (name "0_converterDCDC")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_converterDCDC.kicad_sym")(options "")(descr ""))
 )

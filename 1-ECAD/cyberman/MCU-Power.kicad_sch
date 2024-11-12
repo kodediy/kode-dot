@@ -2407,7 +2407,7 @@
 		(stroke
 			(width 0.508)
 			(type dash)
-			(color 255 0 0 1)
+			(color 255 153 0 1)
 		)
 		(fill
 			(type none)
@@ -2769,7 +2769,7 @@
 			(uuid "36f1e9d1-1973-43f1-97d1-161d51ac23a9")
 		)
 		(instances
-			(project ""
+			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e46a9372-83c8-4117-b39c-2866170a3986"
 					(reference "#PWR06")
 					(unit 1)
@@ -2909,7 +2909,7 @@
 			(uuid "81fdf436-feca-479f-8aa4-19e11576c491")
 		)
 		(instances
-			(project ""
+			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e46a9372-83c8-4117-b39c-2866170a3986"
 					(reference "C1")
 					(unit 1)
@@ -2975,7 +2975,7 @@
 			(uuid "a3dcbd0f-99c2-4734-b42f-220751fd3ce1")
 		)
 		(instances
-			(project ""
+			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e46a9372-83c8-4117-b39c-2866170a3986"
 					(reference "#PWR016")
 					(unit 1)
@@ -3045,7 +3045,7 @@
 			(uuid "147ea724-24cf-4aa9-b151-e71b4091b89c")
 		)
 		(instances
-			(project ""
+			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e46a9372-83c8-4117-b39c-2866170a3986"
 					(reference "C4")
 					(unit 1)
@@ -3691,7 +3691,7 @@
 			(uuid "cb6ab078-f236-493f-bbb3-044eba389344")
 		)
 		(instances
-			(project ""
+			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e46a9372-83c8-4117-b39c-2866170a3986"
 					(reference "U1")
 					(unit 1)
@@ -3758,7 +3758,7 @@
 			(uuid "1e5f3739-5e82-4abf-a154-e41bc3fe902c")
 		)
 		(instances
-			(project ""
+			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e46a9372-83c8-4117-b39c-2866170a3986"
 					(reference "L1")
 					(unit 1)
@@ -3824,7 +3824,7 @@
 			(uuid "e903d0ed-897e-48af-969c-9cb5f96eef33")
 		)
 		(instances
-			(project ""
+			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e46a9372-83c8-4117-b39c-2866170a3986"
 					(reference "#PWR02")
 					(unit 1)
@@ -3890,7 +3890,7 @@
 			(uuid "bba6fb95-8b7c-4ffd-9ea1-9245d0c0b1a3")
 		)
 		(instances
-			(project ""
+			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e46a9372-83c8-4117-b39c-2866170a3986"
 					(reference "#PWR05")
 					(unit 1)
@@ -4158,7 +4158,7 @@
 			(uuid "ebf2e129-8beb-4d7a-9930-2d0050e7e543")
 		)
 		(instances
-			(project ""
+			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e46a9372-83c8-4117-b39c-2866170a3986"
 					(reference "#PWR1")
 					(unit 1)
