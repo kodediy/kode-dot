@@ -2,12 +2,13 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "ESP32-S3R16V"
+	(symbol "ESP32-S3"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
 			(at 0 1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,8 +16,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "ESP32-S3R16V"
+			(at 20.32 1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,6 +26,15 @@
 			)
 		)
 		(property "Footprint" ""
+			(at 6.35 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "Espressif Xtensa 32-bit dual-core, Wi-Fi/Bluetooth, 16MB PSRAM, 45 GPIOS, QFN56"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41,7 +52,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "kode PN" "DOTU001"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Espressif"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ESP32-S3R16V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Mouser"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN 1" "356-ESP32-S3R16V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58,10 +105,19 @@
 				)
 			)
 		)
-		(symbol "ESP32-S3R16V_1_1"
+		(property "ki_keywords" "Espressif Xtensa 32-bit dual-core, Wi-Fi/Bluetooth, 16MB PSRAM, 45 GPIOS, QFN56"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ESP32-S3_1_1"
 			(polyline
 				(pts
-					(xy 1.27 -5.08) (xy 13.97 -5.08)
+					(xy 1.27 -7.62) (xy 24.13 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -73,7 +129,7 @@
 			)
 			(rectangle
 				(start 0 0)
-				(end 15.24 -35.56)
+				(end 25.4 -88.9)
 				(stroke
 					(width 0)
 					(type default)
@@ -83,15 +139,15 @@
 				)
 			)
 			(text "Power"
-				(at 7.62 -2.54 0)
+				(at 12.7 -3.81 0)
 				(effects
 					(font
 						(size 2.54 2.54)
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -7.62 0)
+			(pin unspecified line
+				(at -2.54 -43.18 0)
 				(length 2.54)
 				(name "VDD3P3"
 					(effects
@@ -108,8 +164,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -15.24 0)
+			(pin unspecified line
+				(at -2.54 -12.7 0)
 				(length 2.54)
 				(name "VDD3P3_RTC"
 					(effects
@@ -126,8 +182,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -2.54 -20.32 0)
+			(pin unspecified line
+				(at -2.54 -25.4 0)
 				(length 2.54)
 				(name "VDD_SPI"
 					(effects
@@ -144,8 +200,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -10.16 0)
+			(pin unspecified line
+				(at -2.54 -45.72 0)
 				(length 2.54)
 				(name "VDD3P3"
 					(effects
@@ -162,8 +218,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -12.7 0)
+			(pin unspecified line
+				(at -2.54 -58.42 0)
 				(length 2.54)
 				(name "VDD3P3_CPU"
 					(effects
@@ -180,8 +236,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -25.4 0)
+			(pin unspecified line
+				(at -2.54 -78.74 0)
 				(length 2.54)
 				(name "VDDA"
 					(effects
@@ -198,8 +254,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -27.94 0)
+			(pin unspecified line
+				(at -2.54 -81.28 0)
 				(length 2.54)
 				(name "VDDA"
 					(effects
@@ -216,8 +272,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -2.54 -33.02 0)
+			(pin unspecified line
+				(at 12.7 -91.44 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -235,10 +291,22 @@
 				)
 			)
 		)
-		(symbol "ESP32-S3R16V_2_1"
+		(symbol "ESP32-S3_2_1"
+			(polyline
+				(pts
+					(xy 1.27 -7.62) (xy 24.13 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start 0 0)
-				(end 25.4 -73.66)
+				(end 25.4 -87.63)
 				(stroke
 					(width 0)
 					(type default)
@@ -247,8 +315,16 @@
 					(type background)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -3.81 0)
+			(text "IOs"
+				(at 12.7 -3.81 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -12.7 0)
 				(length 2.54)
 				(name "LNA_IN"
 					(effects
@@ -265,8 +341,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -15.24 180)
+			(pin unspecified line
+				(at 27.94 -24.13 180)
 				(length 2.54)
 				(name "GPIO5"
 					(effects
@@ -283,8 +359,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -17.78 180)
+			(pin unspecified line
+				(at 27.94 -26.67 180)
 				(length 2.54)
 				(name "GPIO6"
 					(effects
@@ -301,8 +377,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -20.32 180)
+			(pin unspecified line
+				(at 27.94 -29.21 180)
 				(length 2.54)
 				(name "GPIO7"
 					(effects
@@ -319,8 +395,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -22.86 180)
+			(pin unspecified line
+				(at 27.94 -31.75 180)
 				(length 2.54)
 				(name "GPIO8"
 					(effects
@@ -337,8 +413,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -25.4 180)
+			(pin unspecified line
+				(at 27.94 -34.29 180)
 				(length 2.54)
 				(name "GPIO9"
 					(effects
@@ -355,8 +431,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -27.94 180)
+			(pin unspecified line
+				(at 27.94 -36.83 180)
 				(length 2.54)
 				(name "GPIO10"
 					(effects
@@ -373,8 +449,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -30.48 180)
+			(pin unspecified line
+				(at 27.94 -39.37 180)
 				(length 2.54)
 				(name "GPIO11"
 					(effects
@@ -391,8 +467,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -33.02 180)
+			(pin unspecified line
+				(at 27.94 -41.91 180)
 				(length 2.54)
 				(name "GPIO12"
 					(effects
@@ -409,8 +485,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -35.56 180)
+			(pin unspecified line
+				(at 27.94 -44.45 180)
 				(length 2.54)
 				(name "GPIO13"
 					(effects
@@ -427,8 +503,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -38.1 180)
+			(pin unspecified line
+				(at 27.94 -46.99 180)
 				(length 2.54)
 				(name "GPIO14"
 					(effects
@@ -445,8 +521,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -13.97 0)
+			(pin unspecified line
+				(at 27.94 -49.53 180)
 				(length 2.54)
 				(name "XTAL_32K_P"
 					(effects
@@ -463,8 +539,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -16.51 0)
+			(pin unspecified line
+				(at 27.94 -52.07 180)
 				(length 2.54)
 				(name "XTAL_32K_N"
 					(effects
@@ -481,8 +557,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -40.64 180)
+			(pin unspecified line
+				(at 27.94 -54.61 180)
 				(length 2.54)
 				(name "GPIO17"
 					(effects
@@ -499,8 +575,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -43.18 180)
+			(pin unspecified line
+				(at 27.94 -57.15 180)
 				(length 2.54)
 				(name "GPIO18"
 					(effects
@@ -517,8 +593,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -45.72 180)
+			(pin unspecified line
+				(at 27.94 -59.69 180)
 				(length 2.54)
 				(name "GPIO19"
 					(effects
@@ -535,8 +611,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -48.26 180)
+			(pin unspecified line
+				(at 27.94 -62.23 180)
 				(length 2.54)
 				(name "GPIO20"
 					(effects
@@ -553,8 +629,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -50.8 180)
+			(pin unspecified line
+				(at 27.94 -64.77 180)
 				(length 2.54)
 				(name "GPIO21"
 					(effects
@@ -571,8 +647,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -57.15 0)
+			(pin unspecified line
+				(at -2.54 -66.04 0)
 				(length 2.54)
 				(name "SPIHD"
 					(effects
@@ -589,8 +665,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -59.69 0)
+			(pin unspecified line
+				(at -2.54 -68.58 0)
 				(length 2.54)
 				(name "SPIWP"
 					(effects
@@ -607,8 +683,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -62.23 0)
+			(pin unspecified line
+				(at -2.54 -71.12 0)
 				(length 2.54)
 				(name "SPICS0"
 					(effects
@@ -625,8 +701,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -64.77 0)
+			(pin unspecified line
+				(at -2.54 -73.66 0)
 				(length 2.54)
 				(name "SPICLK"
 					(effects
@@ -643,8 +719,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -67.31 0)
+			(pin unspecified line
+				(at -2.54 -76.2 0)
 				(length 2.54)
 				(name "SPIQ"
 					(effects
@@ -661,8 +737,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -69.85 0)
+			(pin unspecified line
+				(at -2.54 -78.74 0)
 				(length 2.54)
 				(name "SPID"
 					(effects
@@ -679,8 +755,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -49.53 0)
+			(pin unspecified line
+				(at -2.54 -58.42 0)
 				(length 2.54)
 				(name "SPICLK_N"
 					(effects
@@ -697,8 +773,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -52.07 0)
+			(pin unspecified line
+				(at -2.54 -60.96 0)
 				(length 2.54)
 				(name "SPICLK_P"
 					(effects
@@ -715,8 +791,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -53.34 180)
+			(pin unspecified line
+				(at 27.94 -67.31 180)
 				(length 2.54)
 				(name "GPIO33"
 					(effects
@@ -733,8 +809,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -55.88 180)
+			(pin unspecified line
+				(at 27.94 -69.85 180)
 				(length 2.54)
 				(name "GPIO34"
 					(effects
@@ -751,8 +827,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -8.89 0)
+			(pin unspecified line
+				(at -2.54 -17.78 0)
 				(length 2.54)
 				(name "CHIP_PU"
 					(effects
@@ -769,8 +845,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -58.42 180)
+			(pin unspecified line
+				(at 27.94 -72.39 180)
 				(length 2.54)
 				(name "GPIO35"
 					(effects
@@ -787,8 +863,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -60.96 180)
+			(pin unspecified line
+				(at 27.94 -74.93 180)
 				(length 2.54)
 				(name "GPIO36"
 					(effects
@@ -805,8 +881,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -63.5 180)
+			(pin unspecified line
+				(at 27.94 -77.47 180)
 				(length 2.54)
 				(name "GPIO37"
 					(effects
@@ -823,8 +899,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -66.04 180)
+			(pin unspecified line
+				(at 27.94 -80.01 180)
 				(length 2.54)
 				(name "GPIO38"
 					(effects
@@ -841,8 +917,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -29.21 0)
+			(pin unspecified line
+				(at -2.54 -38.1 0)
 				(length 2.54)
 				(name "MTCK"
 					(effects
@@ -859,8 +935,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -31.75 0)
+			(pin unspecified line
+				(at -2.54 -40.64 0)
 				(length 2.54)
 				(name "MTDO"
 					(effects
@@ -877,8 +953,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -34.29 0)
+			(pin unspecified line
+				(at -2.54 -43.18 0)
 				(length 2.54)
 				(name "MTDI"
 					(effects
@@ -895,8 +971,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -36.83 0)
+			(pin unspecified line
+				(at -2.54 -45.72 0)
 				(length 2.54)
 				(name "MTMS"
 					(effects
@@ -913,8 +989,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -41.91 0)
+			(pin unspecified line
+				(at -2.54 -50.8 0)
 				(length 2.54)
 				(name "U0TXD"
 					(effects
@@ -931,8 +1007,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -2.54 180)
+			(pin unspecified line
+				(at 27.94 -11.43 180)
 				(length 2.54)
 				(name "GPIO0"
 					(effects
@@ -949,8 +1025,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -44.45 0)
+			(pin unspecified line
+				(at -2.54 -53.34 0)
 				(length 2.54)
 				(name "U0RXD"
 					(effects
@@ -967,8 +1043,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -68.58 180)
+			(pin unspecified line
+				(at 27.94 -82.55 180)
 				(length 2.54)
 				(name "GPIO45"
 					(effects
@@ -985,8 +1061,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -71.12 180)
+			(pin unspecified line
+				(at 27.94 -85.09 180)
 				(length 2.54)
 				(name "GPIO46"
 					(effects
@@ -1003,8 +1079,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -21.59 0)
+			(pin unspecified line
+				(at -2.54 -25.4 0)
 				(length 2.54)
 				(name "XTAL_N"
 					(effects
@@ -1021,8 +1097,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -24.13 0)
+			(pin unspecified line
+				(at -2.54 -22.86 0)
 				(length 2.54)
 				(name "XTAL_P"
 					(effects
@@ -1039,8 +1115,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -5.08 180)
+			(pin unspecified line
+				(at 27.94 -13.97 180)
 				(length 2.54)
 				(name "GPIO1"
 					(effects
@@ -1057,8 +1133,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -7.62 180)
+			(pin unspecified line
+				(at 27.94 -16.51 180)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -1075,8 +1151,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -10.16 180)
+			(pin unspecified line
+				(at 27.94 -19.05 180)
 				(length 2.54)
 				(name "GPIO3"
 					(effects
@@ -1093,8 +1169,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 27.94 -12.7 180)
+			(pin unspecified line
+				(at 27.94 -21.59 180)
 				(length 2.54)
 				(name "GPIO4"
 					(effects

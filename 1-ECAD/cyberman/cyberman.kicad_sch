@@ -197,7 +197,7 @@
 		)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 2 2)
 				(color 0 0 0 1)
 			)
@@ -219,7 +219,7 @@
 		)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
@@ -243,7 +243,7 @@
 		)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 2 2)
 				(color 0 0 0 1)
 			)
@@ -265,7 +265,7 @@
 		)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 2 2)
 				(color 0 0 0 1)
 			)
@@ -287,7 +287,7 @@
 		)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
@@ -316,7 +316,7 @@
 		(at 128.27 166.37 0)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 5 5)
 				(bold yes)
 				(color 53 60 207 1)
@@ -387,7 +387,7 @@
 		(at 26.67 166.37 0)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 5 5)
 				(bold yes)
 				(color 53 60 207 1)
@@ -663,7 +663,7 @@
 		)
 		(uuid "5216de6a-28ab-4e49-a422-9fd32d8fed67")
 	)
-	(text "Random Sheet 1"
+	(text "MCU - Power"
 		(exclude_from_sim no)
 		(at 45.72 106.68 0)
 		(effects
@@ -1030,7 +1030,7 @@
 		)
 		(uuid "9413d17b-fd74-4a56-8014-ec2904184d8a")
 	)
-	(text "Random Sheet 2"
+	(text "MCU - IOs"
 		(exclude_from_sim no)
 		(at 45.72 114.3 0)
 		(effects
@@ -1582,7 +1582,7 @@
 		(at 220.98 167.005 0)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 5 5)
 				(bold yes)
 				(color 53 60 207 1)
@@ -1695,7 +1695,7 @@
 		(at 26.67 255.27 0)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 5 5)
 				(bold yes)
 				(color 53 60 207 1)
@@ -1745,47 +1745,6 @@
 			(href "#17")
 		)
 		(uuid "ffcd9e5c-5c93-423a-9ccc-e0af67821852")
-	)
-	(sheet
-		(at 340.36 313.69)
-		(size 35.56 5.08)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "13eb0b07-00a1-4d61-8da3-582545eb29a8")
-		(property "Sheetname" "Power - Sequencing"
-			(at 340.36 312.6609 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.905 1.905)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power - Sequencing.kicad_sch"
-			(at 341.63 314.96 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "cyberman"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(page "6")
-				)
-			)
-		)
 	)
 	(sheet
 		(at 299.72 302.26)
