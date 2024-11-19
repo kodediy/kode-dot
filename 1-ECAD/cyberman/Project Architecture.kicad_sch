@@ -35,7 +35,7 @@
 	)
 	(text "Page 4"
 		(exclude_from_sim no)
-		(at 252.73 76.2 0)
+		(at 252.73 74.93 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -49,7 +49,7 @@
 	)
 	(text "Page 5"
 		(exclude_from_sim no)
-		(at 252.73 228.6 0)
+		(at 252.73 227.33 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -60,6 +60,44 @@
 			(href "#5")
 		)
 		(uuid "c54c21a6-b82f-4883-adfa-9cf31abe82f0")
+	)
+	(sheet
+		(at 88.9 50.8)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.5000)
+		)
+		(uuid "257dfcdf-7056-4a45-9902-57dc3726f775")
+		(property "Sheetname" "Power"
+			(at 88.9 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 88.9 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cyberman"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "7")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 215.9 50.8)
@@ -82,7 +120,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU-Power.kicad_sch"
+		(property "Sheetfile" "mcu-power.kicad_sch"
 			(at 215.9 76.7846 0)
 			(effects
 				(font
@@ -120,7 +158,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU-IOs.kicad_sch"
+		(property "Sheetfile" "mcu-IOs.kicad_sch"
 			(at 214.63 229.1846 0)
 			(effects
 				(font
