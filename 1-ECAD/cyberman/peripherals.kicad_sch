@@ -1820,6 +1820,30 @@
 		)
 		(uuid "f2a460c4-810e-43dc-96bd-d6d4a735ef0c")
 	)
+	(text_box "DESIGN NOTE:\nTBD external connectors"
+		(exclude_from_sim no)
+		(at 39.37 49.53 0)
+		(size 30.48 20.32)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f8164e4e-ff75-47fe-b2c3-a158c97d3bac")
+	)
 	(label "SD_CLK"
 		(at 152.4 50.8 0)
 		(fields_autoplaced yes)

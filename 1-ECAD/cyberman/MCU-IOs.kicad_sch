@@ -8052,6 +8052,30 @@
 		)
 		(uuid "a4fe5647-5395-4bfc-a240-3d57c78582a6")
 	)
+	(text_box "DESIGN NOTE:\nTBD PinOut"
+		(exclude_from_sim no)
+		(at 241.3 26.67 0)
+		(size 30.48 20.32)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ccda2ef0-12bd-4085-b242-3d949d24be3c")
+	)
 	(text_box "DESIGN NOTE:\nCrystal:\n - 40 MHz +-10 ppm\n - Series Inductor of 24 nH on XTAL_P"
 		(exclude_from_sim no)
 		(at 50.8 77.47 0)

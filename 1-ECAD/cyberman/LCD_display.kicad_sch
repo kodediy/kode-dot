@@ -663,6 +663,30 @@
 			)
 		)
 	)
+	(text_box "DESIGN NOTE:\nTBD Connections"
+		(exclude_from_sim no)
+		(at 189.23 39.37 0)
+		(size 30.48 20.32)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4918aa67-bc3d-4521-9f1e-506e1e164bf8")
+	)
 	(symbol
 		(lib_id "0_connector_smd:YXT-BB10-24S-02")
 		(at 139.7 38.1 0)
