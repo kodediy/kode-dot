@@ -176,6 +176,44 @@
 		)
 	)
 	(sheet
+		(at 88.9 163.83)
+		(size 38.1 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 255 0.5000)
+		)
+		(uuid "9419fab5-4e10-47ff-8d9d-48b1a5bf36df")
+		(property "Sheetname" "Sensors"
+			(at 88.9 163.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 88.9 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cyberman"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 215.9 50.8)
 		(size 38.1 25.4)
 		(fields_autoplaced yes)

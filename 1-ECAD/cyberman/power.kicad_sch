@@ -6597,7 +6597,7 @@
 		)
 		(uuid "0bccb366-c66b-4081-8917-59c5d07df973")
 	)
-	(label "SDA1"
+	(label "SDA0"
 		(at 179.07 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6674,7 +6674,7 @@
 		)
 		(uuid "e5e47d7e-1b32-413f-a1d3-06ca8c943cbf")
 	)
-	(label "SCL1"
+	(label "SCL0"
 		(at 179.07 35.56 0)
 		(fields_autoplaced yes)
 		(effects
