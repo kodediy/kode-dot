@@ -11,6 +11,36 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 127 138.43) (xy 214.63 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0652d9e3-6916-4344-bb2b-ca6a73af0565")
+	)
+	(bus
+		(pts
+			(xy 127 140.97) (xy 214.63 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53323e7d-a6a2-4a60-bc22-e3174f129659")
+	)
+	(bus
+		(pts
+			(xy 127 143.51) (xy 214.63 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee894f8c-99f4-4d42-9d68-d2ec82a8c5b9")
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 144.78 20.32 0)
@@ -128,6 +158,36 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "QSPI_DSP{CLK IO[3..0] CS RST}" input
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4bf7074b-f037-4623-b005-06ef32d719fe")
+		)
+		(pin "TP{INT RST}" input
+			(at 127 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a15c4e71-c695-4611-8976-f9cd944a3270")
+		)
+		(pin "I2C_BOARD{SCL SDA}" input
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f72cb767-5700-41ea-be9d-04824a77efc8")
 		)
 		(instances
 			(project "cyberman"
@@ -280,6 +340,36 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "TP{INT RST}" input
+			(at 214.63 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e25eee2-d293-42a4-82be-c35785e73f6a")
+		)
+		(pin "QSPI_DSP{CLK IO[3..0] CS RST}" input
+			(at 214.63 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6611d6a4-6461-423d-b1bb-6b51453b2e32")
+		)
+		(pin "I2C_BOARD{SCL SDA}" input
+			(at 214.63 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f91c04e8-e36d-47b2-9850-5d82c84938fa")
 		)
 		(instances
 			(project "cyberman"
