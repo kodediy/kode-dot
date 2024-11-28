@@ -8,4 +8,5 @@
   (lib (name "0_converterDCDC")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_converterDCDC.kicad_sym")(options "")(descr ""))
   (lib (name "0_diode")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_diode.kicad_sym")(options "")(descr ""))
   (lib (name "0_sensor")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_sensor.kicad_sym")(options "")(descr ""))
+  (lib (name "0_mcu_microchip")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_mcu_microchip.kicad_sym")(options "")(descr ""))
 )

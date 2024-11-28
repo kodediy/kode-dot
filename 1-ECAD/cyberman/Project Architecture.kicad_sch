@@ -11,35 +11,137 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
-	(bus
-		(pts
-			(xy 127 138.43) (xy 214.63 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0652d9e3-6916-4344-bb2b-ca6a73af0565")
+	(junction
+		(at 163.83 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f8d59a2-4628-449e-b124-6ebfab4599fe")
+	)
+	(junction
+		(at 163.83 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4150edea-8d90-4334-bb81-6a8d6fc1601f")
 	)
 	(bus
 		(pts
-			(xy 127 140.97) (xy 214.63 140.97)
+			(xy 127 179.07) (xy 214.63 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53323e7d-a6a2-4a60-bc22-e3174f129659")
+		(uuid "05f8ed62-bee2-4ba4-9739-1669499598f7")
 	)
 	(bus
 		(pts
-			(xy 127 143.51) (xy 214.63 143.51)
+			(xy 163.83 99.06) (xy 163.83 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee894f8c-99f4-4d42-9d68-d2ec82a8c5b9")
+		(uuid "0adcb080-a999-40ee-9736-02a1618169e4")
+	)
+	(bus
+		(pts
+			(xy 127 139.7) (xy 214.63 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b19227a-545d-47d6-acf1-b8293cbbac11")
+	)
+	(bus
+		(pts
+			(xy 127 99.06) (xy 163.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fbbf73-1b0a-43f5-8dba-e24d1dcab807")
+	)
+	(bus
+		(pts
+			(xy 127 134.62) (xy 163.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "535953fd-ede1-47bd-850d-c189bda1fbf7")
+	)
+	(bus
+		(pts
+			(xy 127 142.24) (xy 163.83 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4ed231-7adc-4ce0-9f56-c4bc329ed2e5")
+	)
+	(bus
+		(pts
+			(xy 127 101.6) (xy 214.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe2da45-7722-494e-836c-d687b80267a4")
+	)
+	(bus
+		(pts
+			(xy 163.83 142.24) (xy 214.63 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74536738-2929-43c8-af17-a8242e274660")
+	)
+	(bus
+		(pts
+			(xy 163.83 134.62) (xy 214.63 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada1e284-1548-410b-b802-7b97e9e0a09b")
+	)
+	(bus
+		(pts
+			(xy 127 176.53) (xy 163.83 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e263b4ab-3ac8-4755-9808-25942d0bdc40")
+	)
+	(bus
+		(pts
+			(xy 163.83 142.24) (xy 163.83 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ef0617-ff34-481b-bc03-c71481cc8f7f")
+	)
+	(bus
+		(pts
+			(xy 127 137.16) (xy 214.63 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f991987d-2292-45c9-8245-646dc43ac20c")
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
@@ -121,6 +223,36 @@
 				(justify left top)
 			)
 		)
+		(pin "I2C_BOARD{SCL SDA}" input
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bafca766-6468-4821-8818-0f904b7af456")
+		)
+		(pin "I2C_AUX{SCL SDA}" input
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "585d417c-cf06-4ad6-b212-a314a5969295")
+		)
+		(pin "PWR{PERIPH RST}" input
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6078585a-2c06-449c-87ba-bbc2cdd31db4")
+		)
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
@@ -159,35 +291,45 @@
 				(justify left top)
 			)
 		)
-		(pin "QSPI_DSP{CLK IO[3..0] CS RST}" input
-			(at 127 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4bf7074b-f037-4623-b005-06ef32d719fe")
-		)
 		(pin "TP{INT RST}" input
-			(at 127 143.51 0)
+			(at 127 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a15c4e71-c695-4611-8976-f9cd944a3270")
+			(uuid "9207aecc-1e3b-4c67-8887-23a9ea49e786")
 		)
-		(pin "I2C_BOARD{SCL SDA}" input
-			(at 127 140.97 0)
+		(pin "BOARD_I2C{SCL SDA}" input
+			(at 127 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f72cb767-5700-41ea-be9d-04824a77efc8")
+			(uuid "b6fb0d10-0ece-47fd-aa56-931023e4c2f0")
+		)
+		(pin "DSP{CS RST}" input
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6250cd5-fde1-4b6f-8e83-291c0876ede6")
+		)
+		(pin "QSPI{CLK IO[3..0]}" input
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2256ec48-b861-4c92-aea0-7125827846a3")
 		)
 		(instances
 			(project "cyberman"
@@ -227,6 +369,26 @@
 				(justify left top)
 			)
 		)
+		(pin "QSPI{CLK IO[3..0]}" input
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "89156713-f06d-4008-9dfa-433d54b35487")
+		)
+		(pin "SD{CS CD}" input
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f9c6cac3-ae87-4ab1-9d0c-926b56e5ecc5")
+		)
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
@@ -236,8 +398,8 @@
 		)
 	)
 	(sheet
-		(at 88.9 163.83)
-		(size 38.1 26.67)
+		(at 88.9 165.1)
+		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -248,7 +410,7 @@
 		)
 		(uuid "9419fab5-4e10-47ff-8d9d-48b1a5bf36df")
 		(property "Sheetname" "Sensors"
-			(at 88.9 163.1184 0)
+			(at 88.9 164.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -264,6 +426,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "I2C_BOARD{SCL SDA}" input
+			(at 127 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36b84b18-30c4-4b4a-a26b-2071c6b8e5a4")
+		)
+		(pin "I2S{SCK SD WS}" input
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7fca10e6-f4f2-41e1-aaa1-64a48d876c4e")
 		)
 		(instances
 			(project "cyberman"
@@ -341,35 +523,65 @@
 				(justify left top)
 			)
 		)
+		(pin "I2S{SCK SD WS}" input
+			(at 214.63 179.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2bd5aeca-470d-472a-8391-a9de785434fd")
+		)
+		(pin "BOARD_I2C{SCL SDA}" input
+			(at 214.63 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9a9faba-5a3e-4588-8552-3a06defcda67")
+		)
+		(pin "QSPI{CLK IO[3..0]}" input
+			(at 214.63 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22c3192a-64a6-43ac-b5aa-c842b9421401")
+		)
+		(pin "DSP{CS RST}" input
+			(at 214.63 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4bd8572-d837-486f-81af-257521cb8612")
+		)
 		(pin "TP{INT RST}" input
-			(at 214.63 143.51 180)
+			(at 214.63 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5e25eee2-d293-42a4-82be-c35785e73f6a")
+			(uuid "579b501d-33c3-4420-ab49-b8f54119fc82")
 		)
-		(pin "QSPI_DSP{CLK IO[3..0] CS RST}" input
-			(at 214.63 138.43 180)
+		(pin "SD{CS CD}" input
+			(at 214.63 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6611d6a4-6461-423d-b1bb-6b51453b2e32")
-		)
-		(pin "I2C_BOARD{SCL SDA}" input
-			(at 214.63 140.97 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f91c04e8-e36d-47b2-9850-5d82c84938fa")
+			(uuid "e3a3e51a-11e1-4a51-b6e8-5b029691d1ce")
 		)
 		(instances
 			(project "cyberman"
