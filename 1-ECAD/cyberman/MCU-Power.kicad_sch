@@ -3542,7 +3542,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_mcu_espressif:ESP32-S3R16V"
 			(at 209.55 38.1 0)
 			(effects
 				(font
