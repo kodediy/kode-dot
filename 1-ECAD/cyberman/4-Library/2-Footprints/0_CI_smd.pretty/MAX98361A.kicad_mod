@@ -1,0 +1,306 @@
+(footprint "MAX98361A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IC DIGITAL CLASS-D AMP WLP")
+	(tags "IC DIGITAL CLASS-D AMP WLP")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "fa45be33-5579-4211-8279-0d3a9899852d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MAX98361A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1aaddeb4-0d8e-4a28-8133-824158dd1025")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc528094-ccaf-41db-aa53-345b2ac329b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max98361.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb267ea1-5560-4b6b-a565-7f9bb650dd74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "IC DIGITAL CLASS-D AMP WLP"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7565e8b-d265-4929-8b8c-30882f68c628")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.051)
+	(attr smd)
+	(fp_line
+		(start -0.9 0.85)
+		(end -0.9 0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c330899-aa19-4fcd-8206-1e3cb1427cf1")
+	)
+	(fp_line
+		(start -0.65 -0.9)
+		(end -0.9 -0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9e6a67f-95ae-488e-bedb-1853fb8fe4db")
+	)
+	(fp_line
+		(start -0.4 0.85)
+		(end -0.9 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a0db10b-1ce7-448b-868d-13125f2fabbb")
+	)
+	(fp_line
+		(start 0.4 -0.85)
+		(end 0.9 -0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "502db8ca-5218-47bf-8ca9-03a548b80e17")
+	)
+	(fp_line
+		(start 0.9 -0.85)
+		(end 0.9 -0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d52c854-15aa-4c37-b194-814c61711cf6")
+	)
+	(fp_line
+		(start 0.9 0.35)
+		(end 0.9 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "31d2dc0e-af93-4fb9-a466-218a601d7673")
+	)
+	(fp_line
+		(start 0.9 0.85)
+		(end 0.4 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "02c1439b-f38a-4656-9c31-8f05e3334027")
+	)
+	(fp_line
+		(start -1.2 -1.2)
+		(end 1.2 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4ba5884-7e16-42ad-8b4d-7ddb93458477")
+	)
+	(fp_line
+		(start -1.2 1.2)
+		(end -1.2 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3bfaa0d2-7dab-481b-8852-ab80a5c56388")
+	)
+	(fp_line
+		(start 1.2 -1.2)
+		(end 1.2 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f44f778b-9b67-4dc5-9395-51233b920a95")
+	)
+	(fp_line
+		(start 1.2 1.2)
+		(end -1.2 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2042008-69a9-43f3-9d3e-43f30a59e9ff")
+	)
+	(fp_line
+		(start -0.718 -0.674)
+		(end 0.719 -0.674)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a960164-2896-4e09-9159-38b129c07cf9")
+	)
+	(fp_line
+		(start -0.718 0.673)
+		(end -0.718 -0.674)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae0e0c43-8d39-438d-bc23-9d031edcebb7")
+	)
+	(fp_line
+		(start 0.719 -0.674)
+		(end 0.719 0.673)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6dc7e6b9-366e-430c-a767-02fad493489b")
+	)
+	(fp_line
+		(start 0.719 0.673)
+		(end -0.718 0.673)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e8f7672-dc05-44d9-9efa-cbb4e48f1fb4")
+	)
+	(fp_circle
+		(center -0.4 -0.4)
+		(end -0.3 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "2cacfd94-31c8-49ba-8063-dff8eb948514")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2082e7c5-0a26-4f4b-a0b0-33648b9ce8a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.4 -0.4 90)
+		(size 0.216 0.216)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "56845014-40cc-43d9-9d93-586dafd90582")
+	)
+	(pad "A2" smd circle
+		(at 0 -0.4 90)
+		(size 0.216 0.216)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "669f1fec-9863-4458-8cf0-f14ef685be55")
+	)
+	(pad "A3" smd circle
+		(at 0.4 -0.4 90)
+		(size 0.216 0.216)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "be8d8afe-3697-4652-9bf0-225a8e82fa4c")
+	)
+	(pad "B1" smd circle
+		(at -0.4 0 90)
+		(size 0.216 0.216)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "93a64eb0-e03b-4711-8ed5-9348cf89563d")
+	)
+	(pad "B2" smd circle
+		(at 0 0 90)
+		(size 0.216 0.216)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "52b624b0-ab13-4125-a2b6-f817ae78e427")
+	)
+	(pad "B3" smd circle
+		(at 0.4 0 90)
+		(size 0.216 0.216)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bba29a28-3347-462e-b4f3-2c796ec731eb")
+	)
+	(pad "C1" smd circle
+		(at -0.4 0.4 90)
+		(size 0.216 0.216)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "69912323-f862-4b1b-9c8b-9809222e3782")
+	)
+	(pad "C2" smd circle
+		(at 0 0.4 90)
+		(size 0.216 0.216)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "366f112e-83bc-4060-acfb-16b73a6ec02d")
+	)
+	(pad "C3" smd circle
+		(at 0.4 0.4 90)
+		(size 0.216 0.216)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "147487d5-2744-4bdd-8d99-e14402c2c7fb")
+	)
+	(model "${KIPRJMOD}/4-Library/3-3DModels/MAX98361A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

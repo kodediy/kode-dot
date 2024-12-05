@@ -26,7 +26,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_sensor:ICS-43434"
 			(at 0 0 0)
 			(effects
 				(font
@@ -310,7 +310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_sensor:LIS2MDLTR"
 			(at 1.27 1.27 0)
 			(effects
 				(font
@@ -430,7 +430,7 @@
 					(type background)
 				)
 			)
-			(text "3-axis\nMagnetometer"
+			(text "3-axis\nMag"
 				(at 19.05 -3.81 0)
 				(effects
 					(font
@@ -680,7 +680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_sensor:LSM6DSOTR"
 			(at 0 0 0)
 			(effects
 				(font

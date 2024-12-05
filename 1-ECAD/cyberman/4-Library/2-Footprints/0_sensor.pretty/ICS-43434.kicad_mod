@@ -1,0 +1,290 @@
+(footprint "ICS-43434"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MICROPHONE MEMS DIGITAL I2S OMNI")
+	(tags "MICROPHONE MEMS DIGITAL I2S OMNI")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "3f39f4a0-4b47-4c9c-9f4a-88538275cec9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ICS-43434"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4aeb3440-e1fb-45ef-9cce-d9964777e428")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64307e1b-7f23-4c36-a594-480ff85f1457")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2016/02/DS-000069-ICS-43434-v1.2.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8aca6060-664f-41da-9ef2-9ceccb944c1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MICROPHONE MEMS DIGITAL I2S OMNI"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "889f3b4c-1761-435e-8f6d-9717d366128f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.051)
+	(attr through_hole)
+	(fp_line
+		(start -2.2 1.2)
+		(end -1.7 1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1dc1ebb2-9c5a-46a7-9f1e-f037c5edd84d")
+	)
+	(fp_line
+		(start -2 -1.5)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c92c7c5-60f7-4756-a9b2-d052dd98bf90")
+	)
+	(fp_line
+		(start -2 -1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "908bf006-96fb-4588-b535-8adffb402aa6")
+	)
+	(fp_line
+		(start 2 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "501627a7-6eee-4475-817a-5bbbfc6e9038")
+	)
+	(fp_line
+		(start 2 -1.5)
+		(end 2 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "59dbfaef-6a13-4b7c-96b3-19fbd5a22a32")
+	)
+	(fp_line
+		(start 2 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ca2a380-28d4-489f-b49a-23fba1878c2e")
+	)
+	(fp_line
+		(start 2 1.5)
+		(end 2 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "23e62d48-5b2a-421a-9ccb-e52fbc872cda")
+	)
+	(fp_line
+		(start -2.3 -1.8)
+		(end 2.3 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12903c30-3d22-4f45-9e19-2fba09a4f857")
+	)
+	(fp_line
+		(start -2.3 1.8)
+		(end -2.3 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "974ce28b-1cd6-4efb-a172-dc2c53284c55")
+	)
+	(fp_line
+		(start 2.3 -1.8)
+		(end 2.3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d61016c6-56a8-4fa4-814e-7222c19b9b2f")
+	)
+	(fp_line
+		(start 2.3 1.8)
+		(end -2.3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77a3ce68-8f0d-4432-b87f-2e9e3a32e6a7")
+	)
+	(fp_line
+		(start -1.75 -1.28)
+		(end 1.75 -1.28)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d95093ee-ea03-4379-8709-506b8f2ba2bc")
+	)
+	(fp_line
+		(start -1.75 1.28)
+		(end -1.75 -1.28)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "987e706b-7f73-49db-9b9f-1772497eca7d")
+	)
+	(fp_line
+		(start 1.75 -1.28)
+		(end 1.75 1.28)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80f51330-ffa5-47b0-b40e-d4e929b2d618")
+	)
+	(fp_line
+		(start 1.75 1.28)
+		(end -1.75 1.28)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee7e6085-ddee-43db-af1f-20aaeafcecdb")
+	)
+	(fp_circle
+		(center -1.25 0.8)
+		(end -1.15 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "da59ea34-6e31-4311-87bd-3b3c479584fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d75f4422-faaf-4b08-b14f-f6bc52ffff12")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.364 0.9)
+		(size 0.522 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "38dc0983-16d3-44f1-8ed4-caa14738b77f")
+	)
+	(pad "2" smd rect
+		(at -0.542 0.9)
+		(size 0.522 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3f753d71-c7b6-4181-bacc-58d1b9586120")
+	)
+	(pad "3" thru_hole circle
+		(at 0.71 0)
+		(size 1.625 1.625)
+		(drill 1.025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "449622f3-96ba-46ae-9855-1f99eb9866eb")
+	)
+	(pad "4" smd rect
+		(at -0.542 -0.9)
+		(size 0.522 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "892ee49c-589f-4aa0-b519-517de5be0b15")
+	)
+	(pad "5" smd rect
+		(at -1.364 -0.9)
+		(size 0.522 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "27539849-e40e-44ea-b837-e230e6642b7b")
+	)
+	(pad "6" smd rect
+		(at -1.364 0)
+		(size 0.522 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "03d44edd-c6ee-44ac-82c2-cc0f1abe9bfb")
+	)
+	(model "${KIPRJMOD}/4-Library/3-3DModels/ICS-43434.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

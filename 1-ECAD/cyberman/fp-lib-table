@@ -7,4 +7,7 @@
   (lib (name "0_testpoint")(type "KiCad")(uri "${KIPRJMOD}/4-Library/2-Footprints/0_testpoint.pretty")(options "")(descr ""))
   (lib (name "0_mcu_espressif")(type "KiCad")(uri "${KIPRJMOD}/4-Library/2-Footprints/0_mcu_espressif.pretty")(options "")(descr ""))
   (lib (name "0_connector_smd")(type "KiCad")(uri "${KIPRJMOD}/4-Library/2-Footprints/0_connector_smd.pretty")(options "")(descr ""))
+  (lib (name "0_CI_smd")(type "KiCad")(uri "${KIPRJMOD}/4-Library/2-Footprints/0_CI_smd.pretty")(options "")(descr ""))
+  (lib (name "0_sensor")(type "KiCad")(uri "${KIPRJMOD}/4-Library/2-Footprints/0_sensor.pretty")(options "")(descr ""))
+  (lib (name "0_converter_DCDC")(type "KiCad")(uri "${KIPRJMOD}/4-Library/2-Footprints/0_converter_DCDC.pretty")(options "")(descr ""))
 )

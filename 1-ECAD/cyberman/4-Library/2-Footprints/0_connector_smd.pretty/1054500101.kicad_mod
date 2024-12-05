@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "1054500101"
-		(at 8.67 -6.985 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "7126d793-de99-41ad-b8bd-13564d6ee5cc")
 		(effects
@@ -39,8 +39,8 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 3.77 0)
+	(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1054500101?display=pdf"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "1b61e008-468f-4a6a-a3d9-796a27f061aa")
@@ -52,7 +52,7 @@
 		)
 	)
 	(property "Description" "CONN RCP USB3.1 TYPEC 24P SMD RA"
-		(at 0 3.77 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "a227b620-3d4a-4c7d-92dd-5bbcb1080563")
@@ -66,8 +66,8 @@
 	(solder_mask_margin 0.051)
 	(attr smd)
 	(fp_line
-		(start -4.5 -1.8)
-		(end -4.5 0.2)
+		(start -4.7 -1.8)
+		(end -4.7 0.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76,8 +76,8 @@
 		(uuid "9de281ad-fc2b-499e-87b8-080fe2fe22e9")
 	)
 	(fp_line
-		(start 4.5 -1.8)
-		(end 4.5 0.2)
+		(start 4.7 -1.8)
+		(end 4.7 0.2)
 		(stroke
 			(width 0.1)
 			(type default)

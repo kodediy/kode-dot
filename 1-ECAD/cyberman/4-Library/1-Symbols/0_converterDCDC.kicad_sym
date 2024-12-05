@@ -26,7 +26,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_converter_DCDC:LM3281YFQR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -98,7 +98,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "DCDC, converter, TI"
+		(property "ki_keywords" "IC REG BUCK 3.3V 1.2A 6DSBGA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -287,7 +287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_converter_DCDC:RS3221-3.3YF3"
 			(at 0 0 0)
 			(effects
 				(font

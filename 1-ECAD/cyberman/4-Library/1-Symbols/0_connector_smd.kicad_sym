@@ -674,7 +674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connector_smd:5033981892"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1248,7 +1248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connector_smd:YXT-BB10-24S-02"
 			(at 0 0 0)
 			(effects
 				(font

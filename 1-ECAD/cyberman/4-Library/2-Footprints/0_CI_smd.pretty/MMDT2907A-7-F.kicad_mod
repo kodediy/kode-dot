@@ -1,0 +1,249 @@
+(footprint "MMDT2907A-7-F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TRANS 2PNP 60V 0.6A SOT363")
+	(tags "TRANS 2PNP 60V 0.6A SOT363")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "66cddc60-aa8e-4383-8870-48d8f79d717f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MMDT2907A-7-F"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b5c0e806-95a4-4df3-a0a4-c8393d104d75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28e6817b-e1e2-4548-8232-51ea1fcf7b5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com/datasheet/download/MMDT2907A.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d189809-3fa5-48e9-889f-a27c1476262f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TRANS 2PNP 60V 0.6A SOT363"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7e9ef10-aaaa-469e-ac9a-62acf3b84a69")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.051)
+	(attr smd)
+	(fp_line
+		(start -0.4 -1.2)
+		(end 0.4 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "45976b1a-92e8-4647-804e-49a1778579db")
+	)
+	(fp_line
+		(start -0.4 1.2)
+		(end 0.4 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4a2df62f-fb84-4180-b8b5-070d88125f9d")
+	)
+	(fp_circle
+		(center -1.5 -1.2)
+		(end -1.4 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "668b81b8-d913-47a2-876e-9530cd5c9956")
+	)
+	(fp_line
+		(start -1.8 -1.4)
+		(end 1.8 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4680bb5-aae6-4ea4-9a97-a2db6ba40c11")
+	)
+	(fp_line
+		(start -1.8 1.4)
+		(end -1.8 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9cd4aa8-8af5-406f-ba22-f37075af2f00")
+	)
+	(fp_line
+		(start 1.8 -1.4)
+		(end 1.8 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fdf4c25e-32be-4532-a24c-7974f7e16c56")
+	)
+	(fp_line
+		(start 1.8 1.4)
+		(end -1.8 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b21e07ae-38d7-4689-88a9-1528ae7469bf")
+	)
+	(fp_line
+		(start -0.625 -1)
+		(end 0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c936285-f514-4d8d-ad06-ea7cc73042a2")
+	)
+	(fp_line
+		(start -0.625 1)
+		(end -0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9ca6188-99b5-4cf1-a17e-97704979e2ed")
+	)
+	(fp_line
+		(start 0.625 -1)
+		(end 0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2000f0da-61c5-40af-b0cb-76d3eedc7a0a")
+	)
+	(fp_line
+		(start 0.625 1)
+		(end -0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fae72784-a05b-455b-a5da-d36dbad7c9cb")
+	)
+	(fp_circle
+		(center -0.3 -0.7)
+		(end -0.2 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "9cd53f0d-f615-426c-9dcc-d8a2850222c1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e0e01cf4-3862-4026-8d21-3e4185d825ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 -0.65 90)
+		(size 0.42 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b3fff67d-bb8c-445a-8b66-cb9bbb9497c5")
+	)
+	(pad "2" smd rect
+		(at -0.95 0 90)
+		(size 0.42 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0600dacc-410e-4c00-96c0-a15f732f5e31")
+	)
+	(pad "3" smd rect
+		(at -0.95 0.65 90)
+		(size 0.42 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1659248b-6a4e-4296-aeba-200d380d4d9e")
+	)
+	(pad "4" smd rect
+		(at 0.95 0.65 90)
+		(size 0.42 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6a5fb30d-bcca-4d41-b472-d4fb522870c5")
+	)
+	(pad "5" smd rect
+		(at 0.95 0 90)
+		(size 0.42 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f662c4e8-6521-43d9-854e-563f291c4f69")
+	)
+	(pad "6" smd rect
+		(at 0.95 -0.65 90)
+		(size 0.42 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8f9e2ef9-68ae-466a-b874-f82c581492ec")
+	)
+	(model "${KIPRJMOD}/4-Library/3-3DModels/MMDT2907A-7-F.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

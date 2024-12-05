@@ -1,0 +1,220 @@
+(footprint "DMP1045U-7"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MOSFET P-CH 12V 4A SOT23")
+	(tags "MOSFET P-CH 12V 4A SOT23")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d0d2dff8-b96e-4e2a-bfac-8cb075ee98a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DMP1045U-7"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2a6e6bed-fb8c-4de4-a223-dfa8184f1c79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e23c87f4-f776-43f8-a414-cf5f383e4005")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com/datasheet/download/DMP1045U.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3904130f-459a-4a48-a6dc-f16dc5a6acc2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MOSFET P-CH 12V 4A SOT23"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "782addca-993e-4edd-a0b1-67dde856f5e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.051)
+	(attr smd)
+	(fp_line
+		(start -0.4 -1.7)
+		(end 0.4 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af743961-f1f9-4304-b38e-b627fc22e174")
+	)
+	(fp_line
+		(start -0.4 1.7)
+		(end 0.4 1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a77641e9-7573-4528-a531-c2a7e45bc1e0")
+	)
+	(fp_circle
+		(center -1.7 -1.7)
+		(end -1.6 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "912a1bfb-e3db-4042-b55e-0c874ec8037d")
+	)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33c20994-bd50-4b04-84c2-4937beb4291d")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eae6b70b-4b6c-42f3-80ea-233724f49199")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff17a118-3e30-423e-a6dd-b3a6608cdf61")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c6510ad-375a-4758-b316-a46f18bc11a4")
+	)
+	(fp_line
+		(start -0.65 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1236e9f3-7092-4f31-8acb-891efe3f3bd1")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c71945b-9bdc-4bf1-8a9a-5a0453d33275")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c9c5049-4e25-49a6-94cf-472413d5284b")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fc81c64-62ee-4046-b65d-bc529014e0e9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e36525e2-2d72-4ecc-ae2e-371f14b93c22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "D" smd rect
+		(at 1 0 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1f38b124-c95c-4b49-9b3f-e3a3c3151f58")
+	)
+	(pad "G" smd rect
+		(at -1 -0.95 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "24b778ef-f337-452e-bc3b-5ea0e5aed557")
+	)
+	(pad "S" smd rect
+		(at -1 0.95 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6b7cc523-4f2a-4bcd-9f4b-b7bd968ab577")
+	)
+	(model "${KIPRJMOD}/4-Library/3-3DModels/DMP1045U-7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
