@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "kode PN" "DOTU015"
+			(property "kode PN" "DOTU014"
 				(at 0 0 0)
 				(effects
 					(font
@@ -156,7 +156,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -2.54 -17.78 0)
 					(length 2.54)
 					(name "A0"
@@ -174,7 +174,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 27.94 -17.78 180)
 					(length 2.54)
 					(name "P5"
@@ -192,7 +192,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 27.94 -20.32 180)
 					(length 2.54)
 					(name "P6"
@@ -210,7 +210,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 27.94 -22.86 180)
 					(length 2.54)
 					(name "P7"
@@ -228,7 +228,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -2.54 -12.7 0)
 					(length 2.54)
 					(name "~{INT}"
@@ -246,7 +246,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "SCL"
@@ -264,7 +264,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -2.54 -10.16 0)
 					(length 2.54)
 					(name "SDA"
@@ -282,7 +282,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "VCC"
@@ -300,7 +300,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -2.54 -20.32 0)
 					(length 2.54)
 					(name "A1"
@@ -318,7 +318,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -2.54 -22.86 0)
 					(length 2.54)
 					(name "A2"
@@ -336,7 +336,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 27.94 -5.08 180)
 					(length 2.54)
 					(name "P0"
@@ -354,7 +354,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 27.94 -7.62 180)
 					(length 2.54)
 					(name "P1"
@@ -372,7 +372,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 27.94 -10.16 180)
 					(length 2.54)
 					(name "P2"
@@ -390,7 +390,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 27.94 -12.7 180)
 					(length 2.54)
 					(name "P3"
@@ -408,7 +408,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -2.54 -25.4 0)
 					(length 2.54)
 					(name "GND"
@@ -426,7 +426,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 27.94 -15.24 180)
 					(length 2.54)
 					(name "P4"
@@ -470,7 +470,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0_CI_smd:W25Q128JWPIQ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -767,7 +767,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0_connector_smd:1054500101"
 				(at 0 0 0)
 				(effects
 					(font
@@ -831,6 +831,15 @@
 				)
 			)
 			(property "Supplier 1 PN" "C134092"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CONN RCP USB3.1 TYPEC 24P SMD RA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1478,7 +1487,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier PN 1" "C2929402"
+			(property "Supplier 1 PN" "C2929402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1703,7 +1712,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0_mcu_espressif:ESP32-S3R16V"
 				(at 6.35 12.7 0)
 				(effects
 					(font
@@ -1766,7 +1775,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier PN 1" "356-ESP32-S3R16V"
+			(property "Supplier 1 PN" "356-ESP32-S3R16V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13228,6 +13237,7 @@
 	)
 	(label "SD.CD"
 		(at 237.49 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14429,6 +14439,349 @@
 		)
 	)
 	(symbol
+		(lib_id "0_mcu_espressif:ESP32-S3")
+		(at 144.78 25.4 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "339a7ffe-5d29-46ce-838c-abc196320232")
+		(property "Reference" "U1"
+			(at 144.78 24.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-S3R16V"
+			(at 165.1 24.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0_mcu_espressif:ESP32-S3R16V"
+			(at 151.13 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf"
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Espressif Xtensa 32-bit dual-core, Wi-Fi/Bluetooth, 16MB PSRAM, 45 GPIOS, QFN56"
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "kode PN" "DOTU001"
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Espressif"
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ESP32-S3R16V"
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Mouser"
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 PN" "356-ESP32-S3R16V"
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "e4894aec-b0d2-4c9b-a19d-c707a8ed9dbc")
+		)
+		(pin "2"
+			(uuid "222b1370-9934-4001-8bcc-89f6130da65f")
+		)
+		(pin "12"
+			(uuid "b633e85f-937a-4f63-a6c2-937d135772dc")
+		)
+		(pin "17"
+			(uuid "729b8b36-2246-4578-8168-0294a42eeb8f")
+		)
+		(pin "27"
+			(uuid "ecfc2f4e-54f0-44b4-b123-fe6759f39934")
+		)
+		(pin "45"
+			(uuid "f2847590-fe71-487f-af2d-6a28af8a1460")
+		)
+		(pin "53"
+			(uuid "3cb08405-67c6-4878-b1ce-1fbcbaa10cea")
+		)
+		(pin "6"
+			(uuid "ed3e550e-b487-4f7d-bf8e-a7175306c507")
+		)
+		(pin "32"
+			(uuid "35923b64-568f-46a9-89b1-9af24ffae1a4")
+		)
+		(pin "39"
+			(uuid "769e73e7-55a2-4700-bc40-e60d38ce5c01")
+		)
+		(pin "11"
+			(uuid "3d91e990-c64d-489e-930f-b0304342f7ef")
+		)
+		(pin "30"
+			(uuid "ad7a4618-7e8c-4443-a011-6093e3e18f22")
+		)
+		(pin "50"
+			(uuid "f75e08d5-ebc5-4d0f-a815-4b67b1cc66f6")
+		)
+		(pin "46"
+			(uuid "5ed3d252-d487-4050-81bf-68f7047df1d4")
+		)
+		(pin "8"
+			(uuid "d44bf5a2-d06a-47dd-ba68-b0ef38ee036e")
+		)
+		(pin "41"
+			(uuid "0e77bc78-7280-401c-a10b-2ab1df7ae2d0")
+		)
+		(pin "48"
+			(uuid "0a013448-9b1b-4946-a30a-e636105565c7")
+		)
+		(pin "15"
+			(uuid "923f0f8c-a8cd-481f-af53-9690943c4ec9")
+		)
+		(pin "21"
+			(uuid "a6373f9f-cf7d-43a1-ab7b-027cde909899")
+		)
+		(pin "20"
+			(uuid "9d6a077c-a78f-4040-96ac-6f4235fea31c")
+		)
+		(pin "18"
+			(uuid "f54636d4-0244-4220-8917-3470fe87fbdc")
+		)
+		(pin "44"
+			(uuid "c80ec49f-e796-4438-886c-4286d8769196")
+		)
+		(pin "24"
+			(uuid "dde41403-910a-42b1-a0cd-6decc2bf5f87")
+		)
+		(pin "57"
+			(uuid "9c2aa7e9-3c55-4555-94f1-1f831cecdbe7")
+		)
+		(pin "14"
+			(uuid "44398b20-e93d-4cd9-bfb4-64cc49c9986c")
+		)
+		(pin "26"
+			(uuid "250165a1-5894-4a51-9e4f-13f47273f564")
+		)
+		(pin "52"
+			(uuid "14d6fa63-7bf7-4195-8e66-a250d6790163")
+		)
+		(pin "4"
+			(uuid "9a51b651-c28d-424c-8502-754acf48fefe")
+		)
+		(pin "38"
+			(uuid "d79d1120-c010-4e02-87de-3f0bf811a0c0")
+		)
+		(pin "23"
+			(uuid "df3bb959-d5a3-4bad-91ff-9f05b2c6f3d3")
+		)
+		(pin "43"
+			(uuid "7f12a665-5a9d-4af1-8134-9f065eae6db8")
+		)
+		(pin "49"
+			(uuid "d0e9e974-a91c-4ff0-bd23-3b80e201b07b")
+		)
+		(pin "51"
+			(uuid "2249e9ec-c0d0-4c8f-b913-b50732b338a3")
+		)
+		(pin "16"
+			(uuid "6eb99aa1-6bf0-4590-b05b-b9aff6bdb2c7")
+		)
+		(pin "54"
+			(uuid "2d2a88c7-b4d5-44bf-ba3e-7965558b3f8a")
+		)
+		(pin "9"
+			(uuid "2c321b32-32b1-46ca-9e45-66dc6419baa6")
+		)
+		(pin "42"
+			(uuid "43548c5d-0de7-447e-a7a6-f8871920a1f6")
+		)
+		(pin "5"
+			(uuid "92da6261-4b10-40bb-8a6c-ac9d907ce7a7")
+		)
+		(pin "19"
+			(uuid "2fb0af72-32ed-46f7-aa28-14bd43707240")
+		)
+		(pin "33"
+			(uuid "4e79de2f-8250-40f1-8417-aafbbfdd7ab4")
+		)
+		(pin "31"
+			(uuid "0d252735-7b69-4dc5-93e3-9a865ae0e653")
+		)
+		(pin "7"
+			(uuid "cd6e9d5e-b93b-432e-abb2-4330674abda3")
+		)
+		(pin "53"
+			(uuid "ca6c9338-2d43-4fce-be1e-997acc0df056")
+		)
+		(pin "29"
+			(uuid "cbe7848b-2dc9-4eca-a5cd-98780ec62445")
+		)
+		(pin "3"
+			(uuid "b12078be-a2e8-4bef-be47-061a49886f26")
+		)
+		(pin "22"
+			(uuid "1160b3d6-9a6e-44c1-a119-3785367959f9")
+		)
+		(pin "34"
+			(uuid "316e00c0-10b8-41da-afd8-3b7a4f97c98b")
+		)
+		(pin "1"
+			(uuid "017f15e4-2089-4534-b976-d639ef9a98d3")
+		)
+		(pin "25"
+			(uuid "8476c82d-83dd-4055-b665-5aea922fd674")
+		)
+		(pin "35"
+			(uuid "0c2ce797-132b-466f-bfb2-a6225694606e")
+		)
+		(pin "36"
+			(uuid "444cf3c8-e832-4c8c-be37-4fb8f7994745")
+		)
+		(pin "37"
+			(uuid "f9136c63-65e2-49ad-89f2-4e1ff7b5526d")
+		)
+		(pin "40"
+			(uuid "112f22ad-32ae-4b71-8adf-52cff0bad916")
+		)
+		(pin "13"
+			(uuid "2519067a-47e6-4dbc-bb15-ef7ea1d928b4")
+		)
+		(pin "47"
+			(uuid "ab449e28-863b-4302-b147-82858b077dd2")
+		)
+		(pin "56"
+			(uuid "708ef491-9880-4ec2-8823-d5db3fb90ca3")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f69eb858-8fbb-4698-966f-1f20cc90f168"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 20.32 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33fc0edd-5fa4-40b1-86f2-2a10cc3cd6cf")
+		(property "Reference" "#PWR0105"
+			(at 20.32 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB_5V"
+			(at 20.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 20.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6168033d-051b-48c2-a497-73a7a1c38baf")
+		)
+		(instances
+			(project "cyberman"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f69eb858-8fbb-4698-966f-1f20cc90f168"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_CI_smd:W25Q128JWPIQ")
 		(at 144.78 114.3 0)
 		(unit 1)
@@ -14437,7 +14790,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "334a944b-716e-473d-96ca-f2451c889f78")
+		(uuid "3541e1a6-bf62-4d60-9431-1f4b3ca42282")
 		(property "Reference" "U15"
 			(at 144.78 113.03 0)
 			(do_not_autoplace yes)
@@ -14458,7 +14811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_CI_smd:W25Q128JWPIQ"
 			(at 144.78 114.3 0)
 			(effects
 				(font
@@ -14530,99 +14883,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6a666f14-47bd-48d0-a054-0b91d5e2d5f7")
-		)
-		(pin "2"
-			(uuid "12ad588a-be0b-4e42-97f2-688478d67c4a")
-		)
-		(pin "6"
-			(uuid "08aabdc9-24b2-4c1e-8414-631789cf62eb")
+		(pin "8"
+			(uuid "66ca4735-71f3-4b29-af38-29f4d894da10")
 		)
 		(pin "3"
-			(uuid "422e60be-a097-49d7-96ed-00af883766f7")
-		)
-		(pin "7"
-			(uuid "54b43c51-5c04-4b26-98a4-77892d9157bb")
-		)
-		(pin "4"
-			(uuid "8091ce7f-e61d-415a-a083-153ee3d67f0d")
+			(uuid "3e7f4aac-067f-4c03-98ee-4c06b9e7eaff")
 		)
 		(pin "5"
-			(uuid "38d4ac61-03ef-4470-b2e6-b2535adae0ea")
+			(uuid "f1a50571-7771-4086-97dd-e15c5ecb8276")
 		)
-		(pin "8"
-			(uuid "375dd655-6bea-43ec-b2e8-56b491e26517")
+		(pin "2"
+			(uuid "58abdd8e-f23d-4108-942a-cf134130d4a0")
+		)
+		(pin "1"
+			(uuid "000ced03-929e-407d-9bf4-e05d396f189c")
+		)
+		(pin "7"
+			(uuid "ef29679a-aa2f-4f22-801a-bfbc74aef0d7")
+		)
+		(pin "6"
+			(uuid "aa878bea-e2fd-41fd-b3f1-9057bb59c7b2")
+		)
+		(pin "4"
+			(uuid "5496a76b-355d-442d-89ed-0921bd101ee3")
 		)
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f69eb858-8fbb-4698-966f-1f20cc90f168"
 					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 20.32 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33fc0edd-5fa4-40b1-86f2-2a10cc3cd6cf")
-		(property "Reference" "#PWR0105"
-			(at 20.32 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB_5V"
-			(at 20.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 20.32 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6168033d-051b-48c2-a497-73a7a1c38baf")
-		)
-		(instances
-			(project "cyberman"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f69eb858-8fbb-4698-966f-1f20cc90f168"
-					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -14693,201 +14981,6 @@
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f69eb858-8fbb-4698-966f-1f20cc90f168"
 					(reference "C47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_connector_smd:1054500101")
-		(at 25.4 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45978a2f-f7e1-4774-bdc1-2e375652b773")
-		(property "Reference" "U16"
-			(at 25.4 125.73 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1054500101"
-			(at 41.91 125.73 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1054500101?display=pdf"
-			(at 25.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN RCP USB3.1 TYPEC 24P SMD RA"
-			(at 25.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kode PN" "DOTCON04"
-			(at 25.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MOLEX"
-			(at 25.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer PN" "1054500101"
-			(at 25.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 25.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 PN" "C134092"
-			(at 25.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A10"
-			(uuid "e5876450-3550-4a92-951b-f4b855998f5c")
-		)
-		(pin "A7"
-			(uuid "0cbf5654-7cb0-434c-aa31-46fd93e86337")
-		)
-		(pin "A8"
-			(uuid "85aa50dd-4963-4151-976d-5c7b1342dd2f")
-		)
-		(pin "B8"
-			(uuid "761724c0-6bb2-4cb4-8147-a1395158b340")
-		)
-		(pin "B6"
-			(uuid "0f4cb347-d3d9-4c60-be34-b6c14a87c63d")
-		)
-		(pin "A12"
-			(uuid "bcda04b4-01b1-45dd-ab11-48d79204ef3e")
-		)
-		(pin "A3"
-			(uuid "4e9c6191-377f-4e91-85e2-4de5d3701290")
-		)
-		(pin "S2"
-			(uuid "cfab54f9-da3b-4aa3-9dba-3122ea1f7043")
-		)
-		(pin "A1"
-			(uuid "f0cfece0-8c80-4841-9098-e9916ff4f42b")
-		)
-		(pin "B1"
-			(uuid "4fa162b6-e9aa-4902-9a73-a822b7398563")
-		)
-		(pin "B3"
-			(uuid "a2620dfc-b2dc-40f2-b22d-c2c4c919a540")
-		)
-		(pin "A9"
-			(uuid "1279a543-9b4a-43b9-b661-219447efd8c4")
-		)
-		(pin "B5"
-			(uuid "ca53f31f-d90e-4d59-aa33-1694bb1bc83e")
-		)
-		(pin "B7"
-			(uuid "0212155b-a967-45dc-bcd6-715c8c3b98f9")
-		)
-		(pin "S4"
-			(uuid "3df9a28f-3358-4ba3-974f-d0ea6426c8c2")
-		)
-		(pin "B2"
-			(uuid "e78eeb61-3813-48db-8c41-7626f9a50859")
-		)
-		(pin "S1"
-			(uuid "255a6023-4be8-4429-8482-276127b84434")
-		)
-		(pin "B11"
-			(uuid "3d1ea925-bd24-4daf-ac21-7840c7858093")
-		)
-		(pin "B9"
-			(uuid "49ebe443-fc45-483b-ade0-39dc65421b40")
-		)
-		(pin "A2"
-			(uuid "bc00949d-69a8-45ec-98ce-4a6522135189")
-		)
-		(pin "S3"
-			(uuid "689d5556-f1c5-423b-a23b-67c2f14d652e")
-		)
-		(pin "B12"
-			(uuid "18632eb2-6e21-4fdd-b05a-d916d41faf78")
-		)
-		(pin "B10"
-			(uuid "4d22abf4-f66e-44f6-b1d8-61d2d0b84fd1")
-		)
-		(pin "A5"
-			(uuid "bbd0ba63-ec6f-429f-864a-b83c0724aa47")
-		)
-		(pin "A11"
-			(uuid "da2d1735-fbcb-4132-bc45-c9962c334aec")
-		)
-		(pin "A4"
-			(uuid "bb58b8b3-8c19-4561-86e6-283afa66a81f")
-		)
-		(pin "A6"
-			(uuid "8b3f78ef-3dd4-443c-90e1-e6923c5a4306")
-		)
-		(pin "B4"
-			(uuid "081a6790-13dd-48a6-8c25-e1a11ced5f23")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f69eb858-8fbb-4698-966f-1f20cc90f168"
-					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -15500,165 +15593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_CI_smd:TCA9534PWR")
-		(at 76.2 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95c60fb1-7c64-4bb3-97b5-4e791c160c77")
-		(property "Reference" "U17"
-			(at 76.2 82.55 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TCA9534PWR"
-			(at 90.17 82.55 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9534.pdf?ts=1733248612055&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCA9534"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC XPNDR 400KHZ I2C 16TSSOP"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kode PN" "DOTU015"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instrument"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" "TCA9534PWR"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 PN" "C783615"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "380e1412-05c1-44c3-82d1-4604106066ef")
-		)
-		(pin "6"
-			(uuid "7793ed97-db54-44a0-a55b-042bf04a8ecf")
-		)
-		(pin "1"
-			(uuid "ea38daf3-c657-4741-8f94-fa36aef6d471")
-		)
-		(pin "8"
-			(uuid "b05c48d9-ec97-4ff9-8f4d-809afa67892c")
-		)
-		(pin "3"
-			(uuid "05b2fb91-5b1e-47c9-bd88-222339be40f4")
-		)
-		(pin "5"
-			(uuid "9e4a8a84-664d-4bcf-9272-87b1265cf746")
-		)
-		(pin "12"
-			(uuid "3163463a-65cd-466b-979f-dc7d006bdb69")
-		)
-		(pin "15"
-			(uuid "9650b6dc-0c30-45e6-9d0d-0f73365f9887")
-		)
-		(pin "16"
-			(uuid "f505f84a-faf8-43b3-84e9-75cdb555f355")
-		)
-		(pin "9"
-			(uuid "a4f0a93e-053e-4419-afe6-6151606854ca")
-		)
-		(pin "4"
-			(uuid "6e801376-9561-478f-a086-5a531578df02")
-		)
-		(pin "13"
-			(uuid "4d32f6ee-71d8-4d52-ba8b-a97dc9366d35")
-		)
-		(pin "7"
-			(uuid "6fc6e0aa-b4a8-4a37-9c1c-39fe9ce292b8")
-		)
-		(pin "11"
-			(uuid "f5e41d07-818e-491f-83b5-1e7a59e29ba8")
-		)
-		(pin "14"
-			(uuid "bfe45677-b502-42b5-888a-b553416a6d68")
-		)
-		(pin "10"
-			(uuid "b7478427-bcfe-4384-99eb-45a86221c63e")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f69eb858-8fbb-4698-966f-1f20cc90f168"
-					(reference "U17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 71.12 83.82 0)
 		(unit 1)
@@ -16255,6 +16189,201 @@
 		)
 	)
 	(symbol
+		(lib_id "0_connector_smd:1054500101")
+		(at 25.4 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bef5928a-a3cf-41eb-a920-0f12a7981b18")
+		(property "Reference" "U16"
+			(at 25.4 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1054500101"
+			(at 41.91 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_connector_smd:1054500101"
+			(at 25.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1054500101?display=pdf"
+			(at 25.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RCP USB3.1 TYPEC 24P SMD RA"
+			(at 25.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "kode PN" "DOTCON04"
+			(at 25.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 25.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer PN" "1054500101"
+			(at 25.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 25.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 PN" "C134092"
+			(at 25.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S4"
+			(uuid "315b4abb-bdb0-4a47-8902-efe5e50b56f1")
+		)
+		(pin "S2"
+			(uuid "12e577e9-5cc3-41fa-b9ef-c3e8caae9c66")
+		)
+		(pin "A1"
+			(uuid "813d5ffd-6640-4116-9444-d99de3054e6c")
+		)
+		(pin "B2"
+			(uuid "33ccee3e-ed3f-4ec7-8165-d4a35304bbe2")
+		)
+		(pin "B5"
+			(uuid "144d11fe-162a-495c-bbe4-adc5602a1d1e")
+		)
+		(pin "A5"
+			(uuid "a6838a82-e381-43e2-841f-1d55f20de33c")
+		)
+		(pin "B3"
+			(uuid "eb052c51-c83c-443d-9c1a-d68ccca1f1ad")
+		)
+		(pin "B8"
+			(uuid "fd4d2d32-a90b-4fbd-aff9-3120efa69ee1")
+		)
+		(pin "S3"
+			(uuid "ca8eb634-3d4e-48bd-b2b0-9a1f003fff17")
+		)
+		(pin "A4"
+			(uuid "da3de935-7a35-4095-9e23-24f310461c09")
+		)
+		(pin "B10"
+			(uuid "3ec7e998-031e-44fb-af33-6aa69e6de962")
+		)
+		(pin "A10"
+			(uuid "bbbd93d1-c2df-47af-a367-8bea5cf9ba3f")
+		)
+		(pin "A11"
+			(uuid "dbf914a2-845b-4369-a67a-7b429b37a25d")
+		)
+		(pin "A6"
+			(uuid "64a48fa3-34b0-4506-af9e-c4b780666096")
+		)
+		(pin "A8"
+			(uuid "53353340-564e-4494-98b4-47b3ac04957a")
+		)
+		(pin "B6"
+			(uuid "327345a4-6342-4f9d-b472-d3a5c18a719e")
+		)
+		(pin "S1"
+			(uuid "0b365f33-2d77-43d8-8a10-b5f0c2502feb")
+		)
+		(pin "A12"
+			(uuid "c0b48ee3-34f3-4a05-8c43-4c1a44135d3b")
+		)
+		(pin "A9"
+			(uuid "d2f769e2-6f78-4bc1-84a0-67542a8768d4")
+		)
+		(pin "B11"
+			(uuid "cf218b88-0655-4e98-95ee-cf7da06f687c")
+		)
+		(pin "B4"
+			(uuid "0bfc4bab-2740-464e-862f-3ebee4d784c2")
+		)
+		(pin "A2"
+			(uuid "44015453-6a5b-4842-9b3d-41361255e7c3")
+		)
+		(pin "B9"
+			(uuid "70c89f80-6b21-4027-98a9-8433c4be5cdb")
+		)
+		(pin "A3"
+			(uuid "5b152a90-d4d7-4f1e-be1b-16cc072e8861")
+		)
+		(pin "B1"
+			(uuid "d38e2ab0-17c8-4d27-bd84-f91aa09c60e0")
+		)
+		(pin "B12"
+			(uuid "0a3a444c-ca6c-449a-bcfa-fce9b4fd66af")
+		)
+		(pin "A7"
+			(uuid "5c9c99aa-2b25-4867-b7d6-e9b69abeba14")
+		)
+		(pin "B7"
+			(uuid "6afc2c3f-0dc7-4d6f-9413-249c1336822f")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f69eb858-8fbb-4698-966f-1f20cc90f168"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 97.79 132.08 90)
 		(unit 1)
@@ -16453,6 +16582,165 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f69eb858-8fbb-4698-966f-1f20cc90f168"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_CI_smd:TCA9534PWR")
+		(at 76.2 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6b0f950-64ef-4d08-b808-59a6ffdb62db")
+		(property "Reference" "U17"
+			(at 76.2 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCA9534PWR"
+			(at 90.17 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9534.pdf?ts=1733248612055&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCA9534"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC XPNDR 400KHZ I2C 16TSSOP"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "kode PN" "DOTU014"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instrument"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "TCA9534PWR"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 PN" "C783615"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "32af61ac-841c-46e0-a8d0-aef8a7d917ca")
+		)
+		(pin "15"
+			(uuid "02914e1d-f761-46f0-af22-267cbcf50d82")
+		)
+		(pin "1"
+			(uuid "f9efa739-2cc5-49d7-9e64-78d14841d20d")
+		)
+		(pin "14"
+			(uuid "08371a82-3755-4c84-882a-f3ecd918f263")
+		)
+		(pin "2"
+			(uuid "df0938f0-bd08-4896-b351-6570c15b14d0")
+		)
+		(pin "9"
+			(uuid "a0d72c03-fd1b-46b9-be88-894a41f93e68")
+		)
+		(pin "10"
+			(uuid "8d043e18-db61-42a4-b1e2-e9fa9cffaee3")
+		)
+		(pin "7"
+			(uuid "13729fba-0b15-4547-b796-43834f50c71a")
+		)
+		(pin "5"
+			(uuid "fbeb3f83-e9d2-40c5-bedc-53f86a6dec07")
+		)
+		(pin "16"
+			(uuid "96753323-4273-404e-813f-421b8e0e3bd2")
+		)
+		(pin "11"
+			(uuid "340aeecf-a9a5-464f-8eec-8943db233ad8")
+		)
+		(pin "3"
+			(uuid "b4ed5ef9-dd85-43d3-a4f5-423a98186e28")
+		)
+		(pin "12"
+			(uuid "681b6e7a-cb73-4e81-bec2-f838585fa0dc")
+		)
+		(pin "6"
+			(uuid "270d0e63-9d33-4656-b55e-1537b4821197")
+		)
+		(pin "4"
+			(uuid "2cf287d9-eec1-4275-9b8a-d3edebd73633")
+		)
+		(pin "8"
+			(uuid "4dd04252-a358-4744-b7f8-ab3ed871a06f")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f69eb858-8fbb-4698-966f-1f20cc90f168"
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -16788,293 +17076,6 @@
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f69eb858-8fbb-4698-966f-1f20cc90f168"
 					(reference "#PWR0104")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_mcu_espressif:ESP32-S3")
-		(at 144.78 25.4 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f90f84b6-f643-43a3-bca7-9761e292377a")
-		(property "Reference" "U1"
-			(at 144.78 24.13 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESP32-S3R16V"
-			(at 165.1 24.13 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_mcu_espressif:ESP32-S3R16V"
-			(at 151.13 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf"
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Espressif Xtensa 32-bit dual-core, Wi-Fi/Bluetooth, 16MB PSRAM, 45 GPIOS, QFN56"
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kode PN" "DOTU001"
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Espressif"
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" "ESP32-S3R16V"
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "Mouser"
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN 1" "356-ESP32-S3R16V"
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kode_PN" "DOTU001"
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "c915c96d-e0cb-4c12-9f35-0faf3771ebe1")
-		)
-		(pin "8"
-			(uuid "3461fee7-3441-4ba6-b975-37c3967cc0b5")
-		)
-		(pin "7"
-			(uuid "f88ed416-75f3-4670-9a29-5457015681ca")
-		)
-		(pin "9"
-			(uuid "ca4dfb0a-a9ef-4e6a-8273-82b1448b10db")
-		)
-		(pin "54"
-			(uuid "db6467df-0f31-40df-9b93-1f45f25f2549")
-		)
-		(pin "16"
-			(uuid "3c3c083b-e95f-4cd4-9eff-ad44cca57ed9")
-		)
-		(pin "39"
-			(uuid "6c13e541-ba43-47f5-9ab1-15d1c785fbe8")
-		)
-		(pin "12"
-			(uuid "b67b90b7-68b5-4d4b-93e2-0645e4cf4245")
-		)
-		(pin "56"
-			(uuid "f53cfdad-e459-4083-8e05-c14df3eaa360")
-		)
-		(pin "2"
-			(uuid "e6a0f37f-0964-419c-a119-71210f7e1e78")
-		)
-		(pin "18"
-			(uuid "232f053a-6ffc-45a8-8c36-409362d0ca98")
-		)
-		(pin "49"
-			(uuid "cebd9134-8072-403d-bd59-fff947611245")
-		)
-		(pin "34"
-			(uuid "8c6d53a4-8a1c-43e0-8cff-b8a72f625533")
-		)
-		(pin "45"
-			(uuid "789b7cfb-0036-4c88-b3f4-47ba6526028a")
-		)
-		(pin "17"
-			(uuid "40a04670-1575-430d-90e0-6f14496ec7a8")
-		)
-		(pin "52"
-			(uuid "e7914f7d-d905-4f16-8fd9-bb85d91c9148")
-		)
-		(pin "5"
-			(uuid "78beec96-f4a9-4869-8f65-00396138dab2")
-		)
-		(pin "14"
-			(uuid "1aa16248-8ef2-4972-822d-de2da66ec4c5")
-		)
-		(pin "31"
-			(uuid "34fe793e-de01-463f-bd67-b8d9afc182b5")
-		)
-		(pin "44"
-			(uuid "a26d8ff1-a556-41c8-b342-d3eeb282365b")
-		)
-		(pin "53"
-			(uuid "486266f8-d0e9-4ed3-8741-f15d0054fb78")
-		)
-		(pin "37"
-			(uuid "694a6182-aedb-44b2-9acd-fdaeffa6d7e0")
-		)
-		(pin "51"
-			(uuid "8dc54009-fab0-4d88-aacd-c8c249b8968d")
-		)
-		(pin "30"
-			(uuid "94b73b94-9fd6-4c8e-8b86-f82e4e96e978")
-		)
-		(pin "41"
-			(uuid "e9769deb-471b-4c1d-9254-088db7faa766")
-		)
-		(pin "42"
-			(uuid "d60e8587-44ff-456f-a1b3-3ea7ef8a74f0")
-		)
-		(pin "24"
-			(uuid "c4c3fd22-67f7-4126-b1c5-781829ff9db3")
-		)
-		(pin "53"
-			(uuid "a3f2378a-b49e-4589-b175-d4e38adbaf87")
-		)
-		(pin "57"
-			(uuid "7f174e39-f163-49d7-bef0-b0cea8530f63")
-		)
-		(pin "36"
-			(uuid "705835c3-4c3b-401b-9156-b45c5b4425a0")
-		)
-		(pin "46"
-			(uuid "0125cf34-ecd6-49c3-9639-1e4d06c4f0eb")
-		)
-		(pin "38"
-			(uuid "0fbd416c-1887-43f1-bd5e-755ba0438d0a")
-		)
-		(pin "3"
-			(uuid "248a0cfa-738a-4db5-8f25-e9ebce76e755")
-		)
-		(pin "10"
-			(uuid "8f4eb5e7-a2ff-4013-98f1-e8a030db6881")
-		)
-		(pin "21"
-			(uuid "651fcf2b-2fa1-490c-adb4-2b51c8157c04")
-		)
-		(pin "22"
-			(uuid "8199eb46-aec0-41a3-9dfe-9f29c75fa527")
-		)
-		(pin "29"
-			(uuid "f8018237-1bc7-4f74-ad16-b306dab15ab6")
-		)
-		(pin "20"
-			(uuid "214b7716-5c1f-4851-9172-f76164e169e5")
-		)
-		(pin "33"
-			(uuid "35d38bd7-145b-486a-a2f5-775fcc811e30")
-		)
-		(pin "35"
-			(uuid "71d1dd4d-9c73-41d5-98d8-f9f3ceb5ba4e")
-		)
-		(pin "19"
-			(uuid "cc1b5aee-1b51-4cef-858d-0a908ab5c47b")
-		)
-		(pin "4"
-			(uuid "093fdecd-6947-4c8a-803c-22fd382396d9")
-		)
-		(pin "11"
-			(uuid "5754b704-d557-4064-8c93-2b16cdc7dece")
-		)
-		(pin "15"
-			(uuid "4ebb4bf3-237b-4e0e-a8d8-c362367f9bdc")
-		)
-		(pin "40"
-			(uuid "4836348c-5432-4db4-b41b-22a358bb3c3d")
-		)
-		(pin "25"
-			(uuid "cc2c8b1d-efae-4fd2-b34f-f63725a42a7b")
-		)
-		(pin "13"
-			(uuid "9eab179c-0ac9-44a1-9f8f-2ecfbd266860")
-		)
-		(pin "23"
-			(uuid "8e9eb6f6-a677-42ee-b5a4-372fca8a64f5")
-		)
-		(pin "26"
-			(uuid "bf15b2d5-75be-459d-af46-20cf13640b85")
-		)
-		(pin "32"
-			(uuid "5f9346fb-264e-48f9-a063-dab317715c60")
-		)
-		(pin "43"
-			(uuid "f9fbe523-3a32-4bd6-ad6f-f5f9d5f824ac")
-		)
-		(pin "47"
-			(uuid "73701dfa-1a69-49a6-b38b-0db67e2e2d0e")
-		)
-		(pin "48"
-			(uuid "4bdb3eb4-c7c8-4813-b7cf-196dd56a77bc")
-		)
-		(pin "50"
-			(uuid "08dadccc-8a2f-41ff-9441-25b5ed278a07")
-		)
-		(pin "1"
-			(uuid "cbf6a0fa-c252-4f5e-a8cd-d86fc0458458")
-		)
-		(pin "27"
-			(uuid "ab161737-da3f-4fa7-955a-489299a53b8e")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f69eb858-8fbb-4698-966f-1f20cc90f168"
-					(reference "U1")
-					(unit 2)
 				)
 			)
 		)

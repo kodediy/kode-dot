@@ -29,7 +29,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0_CI_smd:BQ25896RTWR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -92,7 +92,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier PN 1" "C181475"
+			(property "Supplier 1 PN" "C181475"
 				(at 0 0 0)
 				(effects
 					(font
@@ -101,7 +101,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Power path, USB OTG, BUCK-BOOST"
+			(property "ki_keywords" "IC BATT CHG LI-ION 1CELL 24WQFN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -704,7 +704,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0_CI_smd:BQ27220YZFR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -767,7 +767,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier PN 1" "C181475"
+			(property "Supplier 1 PN" "C181475"
 				(at 0 0 0)
 				(effects
 					(font
@@ -776,7 +776,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Fuel Gauge, IC, TI"
+			(property "ki_keywords" "IC FUEL GAUGE LI-ION 1CL 9DSBGA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1382,7 +1382,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0_CI_smd:DMP1045U-7"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1446,6 +1446,15 @@
 				)
 			)
 			(property "Supplier 1 PN" "C177033"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MOSFET P-CH 12V 4A SOT23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1714,7 +1723,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0_CI_smd:MMDT2907A-7-F"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2139,6 +2148,7 @@
 			(on_board yes)
 			(property "Reference" "J"
 				(at 0 1.27 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2219,7 +2229,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier PN 1" "C72591"
+			(property "Supplier 1 PN" "C72591"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2228,7 +2238,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "CONN, 3 Pin, JST"
+			(property "ki_keywords" "CONN HEADER SMD R/A 3POS 1.5MM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2337,7 +2347,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0_converter_DCDC:LM3281YFQR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2409,7 +2419,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "DCDC, converter, TI"
+			(property "ki_keywords" "IC REG BUCK 3.3V 1.2A 6DSBGA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2598,7 +2608,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0_converter_DCDC:RS3221-3.3YF3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2670,7 +2680,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LDO, 3V3"
+			(property "ki_keywords" "LDO 200mA 48dB@(217Hz) Fixed 3.3V Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4278,12 +4288,6 @@
 		(uuid "6a9e02e8-50a1-4296-9771-dca1fe57824e")
 	)
 	(junction
-		(at 238.76 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f9f7b53-62f9-47b0-8100-3b7e6d2c3637")
-	)
-	(junction
 		(at 261.62 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5304,16 +5308,6 @@
 			(type default)
 		)
 		(uuid "630cc2f2-3d30-4742-b00f-012d34bacb68")
-	)
-	(wire
-		(pts
-			(xy 240.03 38.1) (xy 238.76 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63db8788-d457-4df3-a7a6-3c1739cd2bc0")
 	)
 	(wire
 		(pts
@@ -7139,6 +7133,192 @@
 		)
 	)
 	(symbol
+		(lib_id "0_CI_smd:BQ25896RTWR")
+		(at 63.5 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "135fc2e1-deb6-4d8c-aa11-350249f5929d")
+		(property "Reference" "U2"
+			(at 63.5 44.45 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BQ25896RTWR"
+			(at 87.63 44.45 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_CI_smd:BQ25896RTWR"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq25896"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC BATT CHG LI-ION 1CELL 24WQFN"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "kode PN" "DOTU002"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instrument"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "BQ25896RTWR"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 PN" "C181475"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "0fa39f0a-2fcb-414e-aab5-7ebafd0a6736")
+		)
+		(pin "12"
+			(uuid "84b9f653-b945-4e2c-ad51-3f8c5a6692a7")
+		)
+		(pin "13"
+			(uuid "972506f1-66d2-497d-b90c-15c8f7ebc5bf")
+		)
+		(pin "14"
+			(uuid "fcfc5321-521e-49e0-8b59-a1a2aea4c692")
+		)
+		(pin "15"
+			(uuid "93df8346-29fa-4222-a166-248aab46ae0d")
+		)
+		(pin ""
+			(uuid "da8ca25e-717e-4fae-bad3-28156ab4446d")
+		)
+		(pin "1"
+			(uuid "b9fe9dd8-acc6-4cb0-9d1f-17156869fc7a")
+		)
+		(pin "10"
+			(uuid "1083a9ac-5a86-41f2-a6e3-a5cad762d9e1")
+		)
+		(pin "23"
+			(uuid "93a65daf-6c4b-4636-b89f-ec3e96b61c4a")
+		)
+		(pin "4"
+			(uuid "dfc87c9c-35f6-4a2a-8436-e1fbaa9a7e49")
+		)
+		(pin "5"
+			(uuid "3489057d-192d-4f7b-b79b-72b9e9bc1e6a")
+		)
+		(pin "6"
+			(uuid "157b96b5-5ffc-41b7-a97d-03b02e7760e7")
+		)
+		(pin "8"
+			(uuid "b79b1901-67a0-42a1-944d-53ef92c0ca66")
+		)
+		(pin "9"
+			(uuid "dec3eba0-be64-4dc8-8b88-e96e9d62fcb0")
+		)
+		(pin "22"
+			(uuid "d2995a96-e892-4de7-928c-68bdb66132e1")
+		)
+		(pin "18"
+			(uuid "9d51d979-03c8-4c6c-ab9d-c7c385c30192")
+		)
+		(pin "16"
+			(uuid "9abfe3c0-4616-435f-b65f-ee8af511a940")
+		)
+		(pin "19"
+			(uuid "0b30d15e-f4f8-4946-b62a-b7b34bae0cfc")
+		)
+		(pin "20"
+			(uuid "87a8a386-ab35-4521-b77f-90dcd0327414")
+		)
+		(pin "21"
+			(uuid "b5003fbd-f264-4287-876d-735c534fd69e")
+		)
+		(pin "3"
+			(uuid "426cafb1-3cf7-4be7-b5ab-ad8edb8eb39f")
+		)
+		(pin "7"
+			(uuid "18a63c3e-58fe-4757-9df6-eaaed0d5dd44")
+		)
+		(pin "17"
+			(uuid "112cabcf-deea-4d3a-bd2e-3b9849310642")
+		)
+		(pin "24"
+			(uuid "01aa8a43-1fd2-4c75-9b58-02595fff4bb3")
+		)
+		(pin "2"
+			(uuid "c213a80a-b279-4462-ba57-e4f81426fcf5")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:NetTie_2")
 		(at 114.3 114.3 0)
 		(unit 1)
@@ -8213,6 +8393,135 @@
 		)
 	)
 	(symbol
+		(lib_id "0_converterDCDC:LM3281YFQR")
+		(at 101.6 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36b5cf64-f242-42ac-89db-56afce3c1982")
+		(property "Reference" "U6"
+			(at 101.6 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM3281YFQR"
+			(at 114.3 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_converter_DCDC:LM3281YFQR"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3281.pdf"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC REG BUCK 3.3V 1.2A 6DSBGA"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "kode PN" "DOTCU004"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instrument"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "LM3281YFQR"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Suplier 1 PN" "C2070970"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C2"
+			(uuid "0347da08-3e45-41de-9f14-44b3f4824896")
+		)
+		(pin "B2"
+			(uuid "a4136231-b6a8-42b7-965b-3500df8ca63e")
+		)
+		(pin "B1"
+			(uuid "0f7b0618-9625-4347-bfde-2b368b3d2380")
+		)
+		(pin "A2"
+			(uuid "76ab67f9-e6b4-4cc2-887f-0fd221ee2aa0")
+		)
+		(pin "A1"
+			(uuid "a08abdb7-9f89-4993-bfe9-55599e7fddac")
+		)
+		(pin "C1"
+			(uuid "a0bfb236-853c-4103-9e50-441c79f71771")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 80.01 0)
 		(unit 1)
@@ -9137,144 +9446,6 @@
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_CI_smd:BQ27220YZFR")
-		(at 194.31 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "682f8718-8d9e-4502-9870-2e061d72a59b")
-		(property "Reference" "U4"
-			(at 194.31 29.21 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BQ27220YZFR"
-			(at 218.44 29.21 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq27220.pdf?ts=1731432626559&ref_url=https%253A%252F%252Fwww.ti.com%252Fbattery-management%252Ffuel-gauges%252Fproducts.html"
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC FUEL GAUGE LI-ION 1CL 9DSBGA"
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kode PN" "DOTU003"
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instrument"
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" "BQ27220YZFR"
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN 1" "C181475"
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "ff7c80ed-4799-4e22-b359-828d3a98e710")
-		)
-		(pin "B1"
-			(uuid "05dc58ef-806f-4cac-a4b5-dc3c8d87aeaf")
-		)
-		(pin "C1"
-			(uuid "c2c21901-cc44-454b-af8f-220c160c3494")
-		)
-		(pin "C3"
-			(uuid "b7339b55-a2dd-4c3d-b48d-e2c58a2a3203")
-		)
-		(pin "C2"
-			(uuid "12440cc0-faf8-4856-9616-3c1410686f99")
-		)
-		(pin "A1"
-			(uuid "968f09b4-858e-4974-8528-7b4d497d2dea")
-		)
-		(pin "A3"
-			(uuid "49737b0f-d93a-4b97-aa86-1f8014019913")
-		)
-		(pin "B2"
-			(uuid "9a6d7b0d-9da5-4d63-962c-21c5028548aa")
-		)
-		(pin "B3"
-			(uuid "8cd6c2b5-77c5-496e-b5db-19f4f0a218e1")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -10542,6 +10713,135 @@
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_CI_smd:MMDT2907A-7-F")
+		(at 25.4 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f191581-ddf2-44a2-a182-1a211af63198")
+		(property "Reference" "U8"
+			(at 25.4 138.43 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT2907A-7-F"
+			(at 48.26 138.43 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_CI_smd:MMDT2907A-7-F"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/MMDT2907A.pdf"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TRANS 2PNP 60V 0.6A SOT363"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "kode PN" "DOTU006"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "MMDT2907A-7-F"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 PN" "C460232"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c45330c0-43e3-4bcd-a19d-081f9048ca16")
+		)
+		(pin "1"
+			(uuid "ddca075a-d8b0-4424-b085-3f2062eaa263")
+		)
+		(pin "3"
+			(uuid "57aa39af-1bba-490b-ae5c-cf2441245905")
+		)
+		(pin "4"
+			(uuid "f0b9101b-ccf1-4336-b594-d88269146e81")
+		)
+		(pin "5"
+			(uuid "fd18a640-ea34-46b7-9a76-e0f8f39702bf")
+		)
+		(pin "2"
+			(uuid "776e6336-26b3-4af1-aa49-065cbbb4ff30")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -11990,6 +12290,135 @@
 		)
 	)
 	(symbol
+		(lib_id "0_converterDCDC:LM3281YFQR")
+		(at 203.2 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd7dafe5-2e78-4aa6-87aa-53d81d58508f")
+		(property "Reference" "U7"
+			(at 203.2 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM3281YFQR"
+			(at 215.9 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_converter_DCDC:LM3281YFQR"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3281.pdf"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC REG BUCK 3.3V 1.2A 6DSBGA"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "kode PN" "DOTCU004"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instrument"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "LM3281YFQR"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Suplier 1 PN" "C2070970"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B2"
+			(uuid "e6b06941-6d5c-421c-8402-7474b8199e9c")
+		)
+		(pin "C1"
+			(uuid "31690d53-70f9-4013-94c7-597fec1a0349")
+		)
+		(pin "B1"
+			(uuid "f49c2edb-74f5-4cf0-a921-b1194b0bc66a")
+		)
+		(pin "A2"
+			(uuid "2cf14d42-acf3-4201-8776-0bfb48789f67")
+		)
+		(pin "C2"
+			(uuid "fca2c4b8-4f4e-461d-90cf-f74086e8965e")
+		)
+		(pin "A1"
+			(uuid "5cd7ea86-c5dd-46a4-9807-79aada0212f4")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 203.2 97.79 0)
 		(mirror y)
@@ -12125,134 +12554,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_CI_smd:MMDT2907A-7-F")
-		(at 25.4 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d25fae02-aaf1-44ff-8133-1650b881044d")
-		(property "Reference" "U8"
-			(at 46.99 130.81 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMDT2907A-7-F"
-			(at 46.99 133.35 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/datasheet/download/MMDT2907A.pdf"
-			(at 25.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TRANS 2PNP 60V 0.6A SOT363"
-			(at 25.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kode PN" "DOTU006"
-			(at 25.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 25.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" "MMDT2907A-7-F"
-			(at 25.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 25.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 PN" "C460232"
-			(at 25.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e743158-ee55-4310-a8e2-eb0d0d73b8ff")
-		)
-		(pin "2"
-			(uuid "f74f99da-79bd-4eba-bf7e-937353497e76")
-		)
-		(pin "5"
-			(uuid "fa1489c5-92a6-4cde-8e91-1bb03beff595")
-		)
-		(pin "3"
-			(uuid "f646a243-fa51-48ed-89c2-b4f4a122d6cc")
-		)
-		(pin "4"
-			(uuid "2920aa26-a7cc-4dc6-98af-81ac9302ee87")
-		)
-		(pin "6"
-			(uuid "8a2fd86a-cd24-4cab-b564-34884681e210")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 29.21 83.82 0)
 		(unit 1)
@@ -12317,6 +12618,144 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_CI_smd:BQ27220YZFR")
+		(at 194.31 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3d84b66-13be-46b0-9650-57ba3c03209c")
+		(property "Reference" "U4"
+			(at 194.31 29.21 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BQ27220YZFR"
+			(at 218.44 29.21 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_CI_smd:BQ27220YZFR"
+			(at 194.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq27220.pdf?ts=1731432626559&ref_url=https%253A%252F%252Fwww.ti.com%252Fbattery-management%252Ffuel-gauges%252Fproducts.html"
+			(at 194.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC FUEL GAUGE LI-ION 1CL 9DSBGA"
+			(at 194.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "kode PN" "DOTU003"
+			(at 194.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instrument"
+			(at 194.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "BQ27220YZFR"
+			(at 194.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 194.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 PN" "C181475"
+			(at 194.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C3"
+			(uuid "8b559982-df86-4e73-a23b-4bcae9c3527b")
+		)
+		(pin "B2"
+			(uuid "646565c9-8719-4f75-9b12-ec5699d7159c")
+		)
+		(pin "A2"
+			(uuid "48ca46ee-8cac-4fe4-b373-feb86dbeb6c9")
+		)
+		(pin "B3"
+			(uuid "1db6a2a4-fc67-4b07-80d9-bc47ca05c811")
+		)
+		(pin "C2"
+			(uuid "47d0ea65-fe72-48c4-8aeb-03d729bb3ead")
+		)
+		(pin "C1"
+			(uuid "1115f08a-2b56-44fa-b23d-f5fee685a48f")
+		)
+		(pin "A3"
+			(uuid "44a49666-441a-4481-bf88-c7a4b4466044")
+		)
+		(pin "B1"
+			(uuid "bf6d8b03-ea4b-47e3-b14f-5758f44fd0d1")
+		)
+		(pin "A1"
+			(uuid "f93c33ca-ac5f-4a32-b49b-8bf0f99d4f0f")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12587,321 +13026,6 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_CI_smd:BQ25896RTWR")
-		(at 63.5 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dad361a4-49a9-4d6d-a9bd-dfeb373e4cb2")
-		(property "Reference" "U2"
-			(at 63.5 44.45 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BQ25896RTWR"
-			(at 87.63 44.45 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq25896"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC BATT CHG LI-ION 1CELL 24WQFN"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kode PN" "DOTU002"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instrument"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" "BQ25896RTWR"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN 1" "C181475"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "17"
-			(uuid "51e95e16-10d2-45f7-82ba-3a1d8821b422")
-		)
-		(pin "14"
-			(uuid "907c4275-d628-4971-9bd2-92e1c69bdffc")
-		)
-		(pin "12"
-			(uuid "08f37109-58b5-4de3-932d-0fa7ab6b71c4")
-		)
-		(pin "19"
-			(uuid "a9ce6bc8-5a20-419f-a655-a6e96afedef1")
-		)
-		(pin "10"
-			(uuid "3cd868b0-8b84-4747-bcdf-1db0ffc215c1")
-		)
-		(pin "18"
-			(uuid "960ae931-29b1-428b-971e-0af5b00a7463")
-		)
-		(pin "2"
-			(uuid "01edea08-edb9-4ef2-85da-369bb4790016")
-		)
-		(pin "11"
-			(uuid "9bd2e976-0768-4bf6-865c-786a9f2de3a5")
-		)
-		(pin "13"
-			(uuid "9c894aea-da66-45af-82c5-8c6e30d36fc7")
-		)
-		(pin "15"
-			(uuid "92048159-14c3-4683-bedb-cced894d188a")
-		)
-		(pin "16"
-			(uuid "07d019ca-002e-4d8b-a341-8a483b432843")
-		)
-		(pin "21"
-			(uuid "373d9e51-aa66-4fc4-8f8c-7937f8a9501d")
-		)
-		(pin "20"
-			(uuid "a6e34041-e61d-47f7-8107-8ebc922ad47e")
-		)
-		(pin "22"
-			(uuid "87112111-0c50-4acf-a78b-3cfd1e4af5a9")
-		)
-		(pin "5"
-			(uuid "f2d55cbc-36f4-4eda-ae0d-537bf2818151")
-		)
-		(pin "6"
-			(uuid "79072256-358d-44c7-9fb7-c03f24f181b6")
-		)
-		(pin "3"
-			(uuid "a468fdba-6066-4dfa-ba85-c364af73dff7")
-		)
-		(pin "7"
-			(uuid "c2164c7c-e30a-4200-aa45-0bd86c1f2782")
-		)
-		(pin "8"
-			(uuid "889f4905-ce60-40a1-abc2-66b8992e464f")
-		)
-		(pin "23"
-			(uuid "6e5f914a-ab2b-4373-8c8b-e2620cd5798c")
-		)
-		(pin "24"
-			(uuid "31ad8055-aab1-42dc-aad2-d20c72f557d6")
-		)
-		(pin "4"
-			(uuid "d8d7aa71-58e2-4b09-b2f3-66f1f7ab8dcd")
-		)
-		(pin "9"
-			(uuid "805dcac2-eba0-4e60-a1b4-099ce1de3711")
-		)
-		(pin ""
-			(uuid "cdabfbd2-b71d-46da-9d8f-2523bc680f08")
-		)
-		(pin "1"
-			(uuid "2db51088-42fd-422d-9c35-cb3ca2d37fef")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_converterDCDC:LM3281YFQR")
-		(at 101.6 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db4b6227-594d-4ac8-83db-d85888ca0864")
-		(property "Reference" "U6"
-			(at 101.6 125.73 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM3281YFQR"
-			(at 114.3 125.73 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3281.pdf"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG BUCK 3.3V 1.2A 6DSBGA"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kode PN" "DOTCU004"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instrument"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" "LM3281YFQR"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Suplier 1 PN" "C2070970"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "e177abe6-2cd2-4e70-9f3e-241c8740d561")
-		)
-		(pin "B1"
-			(uuid "c2037fd6-e90d-46f3-9efd-50603c1897ca")
-		)
-		(pin "C2"
-			(uuid "36b8d775-796b-41f9-9e76-0dde0c0ed754")
-		)
-		(pin "A1"
-			(uuid "4224ab6b-ac2f-4493-b7e0-74e6cd0ad853")
-		)
-		(pin "C1"
-			(uuid "b82a03d8-12f4-443b-b0b4-7f74a9e2a444")
-		)
-		(pin "B2"
-			(uuid "85b74978-ce13-4eaf-bbdc-ccb1a76e186b")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -13771,7 +13895,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f5b1e021-14ee-45f0-8be1-db5e1c639791")
+		(uuid "f547d27e-21e4-4248-b893-7b9257aa0fa2")
 		(property "Reference" "U5"
 			(at 215.9 87.63 0)
 			(do_not_autoplace yes)
@@ -13792,7 +13916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_converter_DCDC:RS3221-3.3YF3"
 			(at 215.9 88.9 0)
 			(effects
 				(font
@@ -13864,14 +13988,14 @@
 				(hide yes)
 			)
 		)
+		(pin "IN"
+			(uuid "60c2cf90-770a-4c5d-a780-c7c8b01f4f73")
+		)
 		(pin "1"
-			(uuid "d27a314e-35e8-4139-9c7b-cea2d0131b7d")
+			(uuid "7d81dcd2-2bc0-47e0-9f40-630ff54a56cc")
 		)
 		(pin "2"
-			(uuid "9ddc2c71-f002-464f-a42f-31a1a634bf1a")
-		)
-		(pin "IN"
-			(uuid "4f940236-5049-4646-927f-5f26983b9d6b")
+			(uuid "3cb3205d-a26b-46cb-82df-74811aaf7f04")
 		)
 		(instances
 			(project ""
@@ -14008,135 +14132,6 @@
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_converterDCDC:LM3281YFQR")
-		(at 203.2 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "faf5331a-b866-4a90-b830-c8d370efe98d")
-		(property "Reference" "U7"
-			(at 203.2 125.73 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM3281YFQR"
-			(at 215.9 125.73 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3281.pdf"
-			(at 203.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG BUCK 3.3V 1.2A 6DSBGA"
-			(at 203.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kode PN" "DOTCU004"
-			(at 203.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instrument"
-			(at 203.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" "LM3281YFQR"
-			(at 203.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 203.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Suplier 1 PN" "C2070970"
-			(at 203.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "d2ed592b-92f3-426a-ba38-8094dc0a9b63")
-		)
-		(pin "B1"
-			(uuid "a1ed569c-69d8-4d37-9e31-ee59dc9edb62")
-		)
-		(pin "C2"
-			(uuid "c137036a-5556-4c88-9342-d77ffead59cd")
-		)
-		(pin "A1"
-			(uuid "9d6ab209-1a6b-41a9-a8f5-f06f776c8085")
-		)
-		(pin "C1"
-			(uuid "13b1040e-b722-4028-a4f4-516e82f22486")
-		)
-		(pin "B2"
-			(uuid "34d6750e-5431-4a27-84c2-7968591475df")
-		)
-		(instances
-			(project "cyberman"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/257dfcdf-7056-4a45-9902-57dc3726f775"
-					(reference "U7")
 					(unit 1)
 				)
 			)

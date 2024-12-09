@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_mcu_espressif:ESP32-S3R16V"
 			(at 6.35 12.7 0)
 			(effects
 				(font
@@ -88,7 +88,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN 1" "356-ESP32-S3R16V"
+		(property "Supplier 1 PN" "356-ESP32-S3R16V"
 			(at 0 0 0)
 			(effects
 				(font

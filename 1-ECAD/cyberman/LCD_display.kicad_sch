@@ -29,7 +29,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0_connector_smd:YXT-BB10-24S-02"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3279,201 +3279,6 @@
 		(uuid "f5e14b5d-acba-4abe-a61e-94e377ce2e67")
 	)
 	(symbol
-		(lib_id "0_connector_smd:YXT-BB10-24S-02")
-		(at 177.8 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1522f7dd-9784-4ff7-9332-24a7f1f1992c")
-		(property "Reference" "J2"
-			(at 177.8 36.83 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "YXT-BB10-24S-02"
-			(at 177.8 115.57 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yxt-pretech.com/vancheerfile/files/2022/8/20220801163313391.pdf"
-			(at 177.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.4mm 2 24P -55℃~+85℃ Standing paste 500mA SMD,P=0.4mm Board-to-Board and Backplane Connector ROHS"
-			(at 177.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kode PN" "DOTCON03"
-			(at 177.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YXT"
-			(at 177.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" "YXT-BB10-24S-02"
-			(at 177.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 177.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 PN" "C2763965"
-			(at 177.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "d4c46858-85e5-41b8-bb64-b591bf492241")
-		)
-		(pin "7"
-			(uuid "23528524-873b-459b-9b70-dad9813e491b")
-		)
-		(pin "P3"
-			(uuid "87332315-258c-477a-bd66-a1175d089721")
-		)
-		(pin "13"
-			(uuid "b62d2962-9b5c-4533-bba6-1ef9ff11e4ae")
-		)
-		(pin "16"
-			(uuid "b74c0f4a-b72b-4fba-bd69-f19d71cc69ec")
-		)
-		(pin "5"
-			(uuid "d9801ba3-1473-456d-b81b-b97fd94fe1ed")
-		)
-		(pin "17"
-			(uuid "e6f3824d-69e5-458c-8b85-f287b3cef7c3")
-		)
-		(pin "24"
-			(uuid "39c2332e-8662-497e-911d-8b06a91b6e03")
-		)
-		(pin "20"
-			(uuid "f9e48a6b-16ce-40ec-b3fe-9718a27cd081")
-		)
-		(pin "3"
-			(uuid "d28aaffb-fa07-4229-8afa-308cdca8e4cc")
-		)
-		(pin "4"
-			(uuid "0d9b907a-8081-4fa1-b648-773ab10b80bc")
-		)
-		(pin "P1"
-			(uuid "f7c453f3-ae67-49ba-bfe5-db6edd4d6c9e")
-		)
-		(pin "P2"
-			(uuid "06fdc955-bcbc-486e-b922-e64f1f156b0a")
-		)
-		(pin "P4"
-			(uuid "80586082-d544-4035-ada0-7d85d4003b7c")
-		)
-		(pin "11"
-			(uuid "1598f29d-1282-4b94-8080-a3c2541c7f7c")
-		)
-		(pin "19"
-			(uuid "47034800-acee-4a95-82f8-9d3f78760d79")
-		)
-		(pin "22"
-			(uuid "df6c0eed-4426-4623-bbfa-2ca0caf95a33")
-		)
-		(pin "12"
-			(uuid "de16c461-9cb0-4386-902c-435a03584659")
-		)
-		(pin "15"
-			(uuid "89004fc2-0ef0-4df5-ba12-ae61782ba29d")
-		)
-		(pin "9"
-			(uuid "38e03bb8-a1ac-4f84-806b-e29747eddd7f")
-		)
-		(pin "2"
-			(uuid "a0a4f29f-3584-424d-be07-c14ed97284de")
-		)
-		(pin "10"
-			(uuid "48ea82d9-bb81-437a-a0bb-b1ada291ea08")
-		)
-		(pin "18"
-			(uuid "271f233b-907e-4136-8256-1b08ce78b6dd")
-		)
-		(pin "23"
-			(uuid "e8ebf633-b42b-4b8b-bb15-4a1ff8438af0")
-		)
-		(pin "8"
-			(uuid "2f3c5809-c79c-433a-b442-04dbb2f7c5e5")
-		)
-		(pin "21"
-			(uuid "cb0d21cc-b9dc-4d45-a45d-21fc0a965b15")
-		)
-		(pin "1"
-			(uuid "759d8ebe-168b-4d34-9036-6ba8ca06bc7b")
-		)
-		(pin "14"
-			(uuid "9547d55e-5671-43e4-bd7b-0c644ae8d378")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/2aa3e5ea-7568-4e79-a9d1-34c3cd061408"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 149.86 107.95 0)
 		(unit 1)
@@ -4139,6 +3944,201 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/2aa3e5ea-7568-4e79-a9d1-34c3cd061408"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_connector_smd:YXT-BB10-24S-02")
+		(at 177.8 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c66e577e-f908-42bc-ac4a-e51fbff88024")
+		(property "Reference" "J2"
+			(at 177.8 36.83 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "YXT-BB10-24S-02"
+			(at 177.8 115.57 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_connector_smd:YXT-BB10-24S-02"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yxt-pretech.com/vancheerfile/files/2022/8/20220801163313391.pdf"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.4mm 2 24P -55℃~+85℃ Standing paste 500mA SMD,P=0.4mm Board-to-Board and Backplane Connector ROHS"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "kode PN" "DOTCON03"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YXT"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "YXT-BB10-24S-02"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 PN" "C2763965"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "9a7b06ee-ded4-4c4b-a2d4-adb6c4c5610f")
+		)
+		(pin "21"
+			(uuid "2fd32714-db89-441a-90f2-c259341b5f62")
+		)
+		(pin "17"
+			(uuid "19913df7-a6ca-435f-b35a-06936addc61a")
+		)
+		(pin "19"
+			(uuid "6b684233-45a1-43d3-b0b6-a33599a0f80d")
+		)
+		(pin "P3"
+			(uuid "57788126-f76b-48fe-94e9-be61bed1e99c")
+		)
+		(pin "11"
+			(uuid "afd79532-0ecf-44a1-ae86-dc374029efae")
+		)
+		(pin "23"
+			(uuid "d64358d3-4663-4fcf-be03-1670a6042416")
+		)
+		(pin "15"
+			(uuid "4a52d2f6-dd6c-4f11-969f-ad2cac13c11b")
+		)
+		(pin "12"
+			(uuid "627b3577-8762-47f5-95a0-18f07b8db974")
+		)
+		(pin "6"
+			(uuid "2ce9dfe5-16c7-4111-84ad-2f984608a564")
+		)
+		(pin "P2"
+			(uuid "7cf3c8ff-79e2-4ee7-a2e6-f809cbf082b6")
+		)
+		(pin "4"
+			(uuid "da114895-2399-4226-b4f2-a1196b0301b2")
+		)
+		(pin "14"
+			(uuid "fc7f065f-3f9c-447a-b8d2-ceda8148aae5")
+		)
+		(pin "3"
+			(uuid "8d07f45a-c22f-4217-9f3e-c1178749497e")
+		)
+		(pin "22"
+			(uuid "a451a8dd-56b3-4731-8968-cc7b6adb6259")
+		)
+		(pin "13"
+			(uuid "06fe855b-e670-45b4-a6a7-1739d2d27191")
+		)
+		(pin "2"
+			(uuid "b9deb3a1-4650-4d71-b1bb-342722d251f8")
+		)
+		(pin "24"
+			(uuid "09e8eee3-e3f3-4bbf-a81b-21c50c45a96c")
+		)
+		(pin "7"
+			(uuid "3186aa5c-de73-4a05-887b-991093daf6e4")
+		)
+		(pin "10"
+			(uuid "68d2de9a-1932-4f48-89c1-424e2c9499fa")
+		)
+		(pin "20"
+			(uuid "14008108-e8f5-470b-9289-a87f0ba190a6")
+		)
+		(pin "8"
+			(uuid "94eb8744-ef2b-4416-9ab5-7d02e0a4d662")
+		)
+		(pin "P1"
+			(uuid "e5adce53-0cc3-49fb-b94a-0b16ecc4ce64")
+		)
+		(pin "16"
+			(uuid "9221adb8-b8c1-407f-bae0-754083f10504")
+		)
+		(pin "P4"
+			(uuid "7fbc49f5-318f-4b88-8089-95d5617ae59d")
+		)
+		(pin "9"
+			(uuid "2d16b9ae-45c5-4807-9d7f-bc72502de274")
+		)
+		(pin "1"
+			(uuid "e34cd545-4b1c-418e-ba15-b4f08c1d03d3")
+		)
+		(pin "5"
+			(uuid "e27f3c65-d727-41ff-b5bd-cdf0347d7aea")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/2aa3e5ea-7568-4e79-a9d1-34c3cd061408"
+					(reference "J2")
 					(unit 1)
 				)
 			)

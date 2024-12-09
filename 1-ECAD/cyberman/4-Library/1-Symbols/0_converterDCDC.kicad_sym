@@ -359,7 +359,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "LDO, 3V3"
+		(property "ki_keywords" "LDO 200mA 48dB@(217Hz) Fixed 3.3V Positive"
 			(at 0 0 0)
 			(effects
 				(font
