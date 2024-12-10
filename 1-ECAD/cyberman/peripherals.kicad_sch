@@ -3365,7 +3365,6 @@
 		)
 	)
 	(symbol
-		(lib_name "0_diode:ESD241B1W0201E6327XTSA1")
 		(lib_id "0_diode:ESD241B1W0201E6327XTSA1")
 		(at 195.58 80.01 0)
 		(unit 1)
@@ -3480,7 +3479,6 @@
 		)
 	)
 	(symbol
-		(lib_name "0_diode:ESD241B1W0201E6327XTSA1")
 		(lib_id "0_diode:ESD241B1W0201E6327XTSA1")
 		(at 165.1 80.01 0)
 		(unit 1)
@@ -3595,7 +3593,6 @@
 		)
 	)
 	(symbol
-		(lib_name "0_diode:ESD241B1W0201E6327XTSA1")
 		(lib_id "0_diode:ESD241B1W0201E6327XTSA1")
 		(at 187.96 80.01 0)
 		(unit 1)
@@ -4807,7 +4804,6 @@
 		)
 	)
 	(symbol
-		(lib_name "0_diode:ESD241B1W0201E6327XTSA1")
 		(lib_id "0_diode:ESD241B1W0201E6327XTSA1")
 		(at 180.34 80.01 0)
 		(unit 1)
@@ -5333,7 +5329,6 @@
 		)
 	)
 	(symbol
-		(lib_name "0_diode:ESD241B1W0201E6327XTSA1")
 		(lib_id "0_diode:ESD241B1W0201E6327XTSA1")
 		(at 203.2 80.01 0)
 		(unit 1)

@@ -6,7 +6,7 @@
 	(descr "CONN HEADER SMD R/A 2POS 1.25MM")
 	(tags "CONN HEADER SMD R/A 2POS 1.25MM")
 	(property "Reference" "REF**"
-		(at -0.899999 -15.03 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "efc9a616-e6ee-4c97-a15f-d0f212e2feea")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "532610271"
-		(at -0.899999 -15.03 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f2a5c34f-bede-4f1c-a8db-df0c82c348b6")
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/532/53261/532610271_sd.pdf?inline"
-		(at -2.524996 -20.95 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "3971d5b7-2968-4353-a037-902ca8f02c64")
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" "CONN HEADER SMD R/A 2POS 1.25MM"
-		(at -2.524996 -20.95 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "b283417d-b0aa-4ae0-b4bd-3c2c0032cad4")
@@ -227,32 +227,8 @@
 		(layer "F.Fab")
 		(uuid "a90102a4-6a11-435c-a71d-305dc56a2728")
 	)
-	(fp_text user "PICOBLADE_1.25_WIRE_TO_BOARD_WAFER_ASSY_SMT_-2_CKT"
-		(at -0.899999 -18.98 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "725b2ab8-b47d-41f4-a1ce-eb8293a118ab")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "532610271"
-		(at -0.899999 -21.52 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "84416331-895d-428c-a27d-04508e64dcee")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "532610271"
-		(at -0.899999 -21.52 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "2332aaf8-eadd-45d2-b5ee-1ea1d9253e43")
@@ -264,7 +240,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.899999 -15.03 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "87213212-cacb-4e2e-a58a-c04ff6ac8acd")
@@ -276,7 +252,7 @@
 		)
 	)
 	(fp_text user "PICOBLADE_1.25_WIRE_TO_BOARD_WAFER_ASSY_SMT_-2_CKT"
-		(at -0.899999 -18.98 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c72bb459-ab72-4a2a-8fe9-41888d7aaf00")
