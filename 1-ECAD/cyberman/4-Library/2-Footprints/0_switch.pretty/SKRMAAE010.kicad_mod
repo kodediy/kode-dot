@@ -1,0 +1,257 @@
+(footprint "SKRMAAE010"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SWITCH TACTILE SPST-NO 0.05A 12V")
+	(tags "SWITCH TACTILE SPST-NO 0.05A 12V")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "350208a5-9500-47f4-889b-239f8caa4938")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SKRMAAE010"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "efeb3f07-084c-446e-a658-20356716b581")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f405b8b-6d40-4ec4-b717-d2ddfea53cf9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://tech.alpsalpine.com/cms.media/product_spec_skrmaae010_en_4ef825d8b6.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bb0a3d3-112f-49b5-b8e4-e4122f2dd7b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7e208c2-8312-4dc0-8c6d-eedbb81edb44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.051)
+	(attr smd)
+	(fp_line
+		(start -2.5 -0.8)
+		(end -2.5 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c75088d0-f39d-4ff2-87fc-7e571003c035")
+	)
+	(fp_line
+		(start -0.8 -2.5)
+		(end 0.8 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3693df9-f9ea-4aad-9644-87e2e1de0c96")
+	)
+	(fp_line
+		(start -0.8 2.5)
+		(end 0.8 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8241ad2e-151d-403b-9f1e-d1cf327e36ea")
+	)
+	(fp_line
+		(start 2.5 -0.8)
+		(end 2.5 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4284a7e-1912-485c-b446-1e0ccbfc25e0")
+	)
+	(fp_circle
+		(center -2.8 -1.7)
+		(end -2.7 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "80812100-15f2-44dd-8ac7-1df359e14728")
+	)
+	(fp_line
+		(start -3.3 -3.25)
+		(end 3.3 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c8d33d4f-2d2d-4d64-a9c9-f5bec9eaa23f")
+	)
+	(fp_line
+		(start -3.3 3.25)
+		(end -3.3 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9117de15-e8b4-4923-8e81-fd245ad6df17")
+	)
+	(fp_line
+		(start 3.3 -3.25)
+		(end 3.3 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35dbba04-32e0-4336-8431-61a0ef1cd6e0")
+	)
+	(fp_line
+		(start 3.3 3.25)
+		(end -3.3 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "015f4e85-a3a3-40ba-be3e-26ae965b1a54")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f2897b5-0d65-4dd5-8269-d1a08394f183")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7d61a1d-9036-42f3-8ff4-81732584156e")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa6e155b-e90e-4ff6-8c31-a672805ff063")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1eb0fc77-32bc-4f19-bb0f-e45fa19f777a")
+	)
+	(fp_circle
+		(center -1.7 -1.7)
+		(end -1.6 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "eba5d3f2-7d6a-49a9-b029-4148205ffc1b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "35cfc04f-af99-4aa8-a011-d9b6580b74e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.875 -1.65 90)
+		(size 0.7 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d95f89db-f242-4a3d-86ec-716507f6016e")
+	)
+	(pad "2" smd rect
+		(at -1.875 1.65 90)
+		(size 0.7 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "26307916-46ff-4481-8b0b-b00b25e0ac0f")
+	)
+	(pad "3" smd rect
+		(at 1.875 -1.65 90)
+		(size 0.7 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2ec9f85a-93b7-44f4-bb97-a9404136d88d")
+	)
+	(pad "4" smd rect
+		(at 1.875 1.65 90)
+		(size 0.7 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4808b400-b620-48f9-a547-2f8c7db9f91d")
+	)
+	(model "${KIPRJMOD}/4-Library/3-3DModels/SKRMAAE010.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
