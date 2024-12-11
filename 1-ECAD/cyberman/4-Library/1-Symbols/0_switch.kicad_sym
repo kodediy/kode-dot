@@ -8,6 +8,7 @@
 		(on_board yes)
 		(property "Reference" "SW"
 			(at 0 5.08 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,6 +17,7 @@
 		)
 		(property "Value" "SKRMAAE010"
 			(at 0 -2.54 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)

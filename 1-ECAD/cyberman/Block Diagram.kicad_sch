@@ -6,9 +6,9 @@
 	(paper "A3")
 	(title_block
 		(title "Block Diagram")
-		(date "Last Modified Date")
-		(rev "${REVISION}")
-		(company "${COMPANY}")
+		(date "2024-12-11")
+		(rev "1.0")
+		(company "kode.")
 	)
 	(lib_symbols)
 	(polyline

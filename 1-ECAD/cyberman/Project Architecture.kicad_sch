@@ -6,27 +6,11 @@
 	(paper "A3")
 	(title_block
 		(title "Project Architecture")
-		(date "Last Modified Date")
-		(rev "${REVISION}")
-		(company "${COMPANY}")
+		(date "2024-12-11")
+		(rev "1.0")
+		(company "kode.")
 	)
 	(lib_symbols)
-	(junction
-		(at 163.83 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f8d59a2-4628-449e-b124-6ebfab4599fe")
-	)
-	(bus
-		(pts
-			(xy 127 179.07) (xy 214.63 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f8ed62-bee2-4ba4-9739-1669499598f7")
-	)
 	(bus
 		(pts
 			(xy 127 101.6) (xy 215.9 101.6)
@@ -39,26 +23,6 @@
 	)
 	(bus
 		(pts
-			(xy 127 142.24) (xy 163.83 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b4ed231-7adc-4ce0-9f56-c4bc329ed2e5")
-	)
-	(bus
-		(pts
-			(xy 163.83 142.24) (xy 214.63 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74536738-2929-43c8-af17-a8242e274660")
-	)
-	(bus
-		(pts
 			(xy 127 99.06) (xy 215.9 99.06)
 		)
 		(stroke
@@ -66,46 +30,6 @@
 			(type default)
 		)
 		(uuid "7df737a7-3e6d-47a7-bb54-1b22a36f2f62")
-	)
-	(bus
-		(pts
-			(xy 127 134.62) (xy 214.63 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ada1e284-1548-410b-b802-7b97e9e0a09b")
-	)
-	(bus
-		(pts
-			(xy 127 176.53) (xy 163.83 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e263b4ab-3ac8-4755-9808-25942d0bdc40")
-	)
-	(bus
-		(pts
-			(xy 163.83 142.24) (xy 163.83 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7ef0617-ff34-481b-bc03-c71481cc8f7f")
-	)
-	(bus
-		(pts
-			(xy 127 137.16) (xy 214.63 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f991987d-2292-45c9-8245-646dc43ac20c")
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
@@ -128,6 +52,20 @@
 			)
 		)
 		(uuid "7fa5cc40-6c97-487c-9cc7-412504f68533")
+	)
+	(text "Page 10"
+		(exclude_from_sim no)
+		(at 125.73 190.5 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "08542efe-c2b4-40bc-afcf-36bb0f555e59")
 	)
 	(text "Page 4"
 		(exclude_from_sim no)
@@ -237,7 +175,7 @@
 			(color 0 255 0 0.5000)
 		)
 		(uuid "2aa3e5ea-7568-4e79-a9d1-34c3cd061408")
-		(property "Sheetname" "LCD Display"
+		(property "Sheetname" "Display"
 			(at 88.9 126.2884 0)
 			(effects
 				(font
@@ -246,7 +184,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LCD_display.kicad_sch"
+		(property "Sheetfile" "display.kicad_sch"
 			(at 88.9 152.9846 0)
 			(effects
 				(font
@@ -263,9 +201,19 @@
 				)
 				(justify right)
 			)
-			(uuid "b6fb0d10-0ece-47fd-aa56-931023e4c2f0")
+			(uuid "4612a405-b14a-43bf-9a13-089da5257c47")
 		)
-		(pin "DSP{CS RST}" input
+		(pin "DSP{CS RST TP_INT}" input
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae6e7195-5707-4560-b199-7b8129470aff")
+		)
+		(pin "QSPI{CLK IO[3..0]}" input
 			(at 127 137.16 0)
 			(effects
 				(font
@@ -273,17 +221,7 @@
 				)
 				(justify right)
 			)
-			(uuid "e6250cd5-fde1-4b6f-8e83-291c0876ede6")
-		)
-		(pin "QSPI{CLK IO[3..0]}" input
-			(at 127 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2256ec48-b861-4c92-aea0-7125827846a3")
+			(uuid "64ce6339-eff4-441d-afdc-d595c0985d98")
 		)
 		(instances
 			(project "cyberman"
@@ -363,7 +301,7 @@
 			(color 255 0 255 0.5000)
 		)
 		(uuid "9419fab5-4e10-47ff-8d9d-48b1a5bf36df")
-		(property "Sheetname" "Sensors"
+		(property "Sheetname" "Sensors and Audio"
 			(at 88.9 164.3884 0)
 			(effects
 				(font
@@ -372,7 +310,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sensors.kicad_sch"
+		(property "Sheetfile" "sensors-audio.kicad_sch"
 			(at 88.9 191.0846 0)
 			(effects
 				(font
@@ -381,25 +319,55 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C_BOARD{SCL SDA}" input
-			(at 127 176.53 0)
+		(pin "IMU{INT1 INT2}" input
+			(at 127 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "36b84b18-30c4-4b4a-a26b-2071c6b8e5a4")
+			(uuid "5aff0c6a-dafb-47b3-a4c9-f18ffdfc12f7")
+		)
+		(pin "SPK.SD" input
+			(at 127 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "605259fb-2f63-4fab-8b34-65e490e8483d")
+		)
+		(pin "MAG.INT" input
+			(at 127 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9293eca5-e364-4b2e-bc8c-f73e54929c78")
 		)
 		(pin "I2S{SCK SD WS}" input
-			(at 127 179.07 0)
+			(at 127 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7fca10e6-f4f2-41e1-aaa1-64a48d876c4e")
+			(uuid "d0c927d8-34d1-4b23-b1c9-e9d003c30257")
+		)
+		(pin "I2C_BOARD{SCL SDA}" input
+			(at 127 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01e554ec-ddd4-4e41-87b9-25a7cd3eb7cc")
 		)
 		(instances
 			(project "cyberman"
@@ -514,16 +482,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "I2S{SCK SD WS}" input
-			(at 215.9 179.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2bd5aeca-470d-472a-8391-a9de785434fd")
 		)
 		(pin "BOARD_I2C{SCL SDA}" input
 			(at 215.9 142.24 180)

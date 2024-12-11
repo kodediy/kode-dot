@@ -1,0 +1,229 @@
+(footprint "LESD5D5.0CT1G"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "9.4A 18.6V 5.6V Bidirectional 5V SOD-523")
+	(tags "9.4A 18.6V 5.6V Bidirectional 5V SOD-523")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "85e6cb94-8f48-4474-bea9-9e915a7384f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "LESD5D5.0CT1G"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3b12deaa-192e-45ab-a562-5d84812835c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5541a157-a68e-40b0-81de-b13e6cc740d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lrc.cn/Upload/PDF/Product/ESD/LESD5D5.0CT1G.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ea25cd9-5912-4a6b-8f30-c5ece837c892")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "9.4A 18.6V 5.6V Bidirectional 5V SOD-523"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ce64335-eb19-489b-a7f9-7bd345b18575")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.051)
+	(attr smd)
+	(fp_line
+		(start -1.2 -0.6)
+		(end -1.2 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb0ddd5e-87a2-4ac5-99ba-eaf390599d56")
+	)
+	(fp_line
+		(start -1.2 -0.6)
+		(end -0.9 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f25d668-e986-4470-bf98-8010eab05839")
+	)
+	(fp_line
+		(start -1.2 0.6)
+		(end -0.9 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d1f975f0-d1ea-4d3b-9511-048a34a37a0a")
+	)
+	(fp_line
+		(start -1.2 -0.7)
+		(end 1.2 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8570c008-5e21-4e39-8817-17f2af1b426e")
+	)
+	(fp_line
+		(start -1.2 0.7)
+		(end -1.2 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03714169-860e-49ac-9a5e-f4796ad09ad6")
+	)
+	(fp_line
+		(start 1.2 -0.7)
+		(end 1.2 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75609d4b-a759-4da9-837b-70441210770b")
+	)
+	(fp_line
+		(start 1.2 0.7)
+		(end -1.2 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "baa73ef0-7272-40c8-ab0b-2ca1f16ae00b")
+	)
+	(fp_line
+		(start -0.65 -0.45)
+		(end 0.65 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0a4b5ae-3f80-4ea5-9444-f137bf149817")
+	)
+	(fp_line
+		(start -0.65 0.45)
+		(end -0.65 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de5ab068-6147-476f-a75b-b9a08bdf9340")
+	)
+	(fp_line
+		(start 0.65 -0.45)
+		(end 0.65 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "123b8224-736d-41b8-828f-14e26858d1d8")
+	)
+	(fp_line
+		(start 0.65 0.45)
+		(end -0.65 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31ae592d-86ae-4a90-899c-794e29ac47fa")
+	)
+	(fp_circle
+		(center -0.3 0)
+		(end -0.2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "1e9a0e8d-7344-4a9d-8f22-7a1b4b4382e0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "241b20e4-5936-4914-80ba-13edfe03d004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.7 0 180)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "0a730c22-5295-4f74-be7e-c5ce25b9692c")
+	)
+	(pad "2" smd roundrect
+		(at 0.7 0 180)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "0048822b-dc04-4b42-ace6-d2d3ec208472")
+	)
+	(model "${KIPRJMOD}/4-Library/3-3DModels/LESD5D5.0CT1G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
