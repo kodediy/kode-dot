@@ -70,8 +70,8 @@
 	(solder_mask_margin 0.051)
 	(attr smd)
 	(fp_line
-		(start -0.8 -0.6)
-		(end -0.8 0.6)
+		(start -0.8 -0.2)
+		(end -0.8 0.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -80,24 +80,24 @@
 		(uuid "223d63f9-8f5c-4ac1-af95-337d319296a1")
 	)
 	(fp_line
-		(start -0.8 -0.6)
-		(end -0.5 -0.6)
+		(start -0.2 -0.6)
+		(end 0.2 -0.6)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "4a4d2521-8639-4d5b-ab64-52cabf69adc7")
+		(uuid "9498c8b4-dd90-44e7-990a-44bc155a23ab")
 	)
 	(fp_line
-		(start -0.8 0.6)
-		(end -0.5 0.6)
+		(start -0.2 0.6)
+		(end 0.2 0.6)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "3cfd7544-80cd-4b9c-9363-40104a042ba1")
+		(uuid "705b1da3-66b2-420d-9009-79a2972684a7")
 	)
 	(fp_line
 		(start -0.8 -0.6)

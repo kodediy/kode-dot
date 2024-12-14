@@ -6,7 +6,7 @@
 	(descr "9.4A 18.6V 5.6V Bidirectional 5V SOD-523")
 	(tags "9.4A 18.6V 5.6V Bidirectional 5V SOD-523")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0.4 -2 0)
 		(layer "F.SilkS")
 		(uuid "85e6cb94-8f48-4474-bea9-9e915a7384f0")
 		(effects
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "LESD5D5.0CT1G"
-		(at 0 0 0)
+		(at 0.4 -2 0)
 		(layer "F.Fab")
 		(uuid "3b12deaa-192e-45ab-a562-5d84812835c0")
 		(effects
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" "https://www.lrc.cn/Upload/PDF/Product/ESD/LESD5D5.0CT1G.pdf"
-		(at 0 0 0)
+		(at 0.4 -2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,7 +55,7 @@
 		)
 	)
 	(property "Description" "9.4A 18.6V 5.6V Bidirectional 5V SOD-523"
-		(at 0 0 0)
+		(at 0.4 -2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -70,8 +70,8 @@
 	(solder_mask_margin 0.051)
 	(attr smd)
 	(fp_line
-		(start -1.2 -0.6)
-		(end -1.2 0.6)
+		(start -1.2 -0.2)
+		(end -1.2 0.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -80,24 +80,24 @@
 		(uuid "fb0ddd5e-87a2-4ac5-99ba-eaf390599d56")
 	)
 	(fp_line
-		(start -1.2 -0.6)
-		(end -0.9 -0.6)
+		(start -0.2 -0.6)
+		(end 0.2 -0.6)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "1f25d668-e986-4470-bf98-8010eab05839")
+		(uuid "4921a7d1-e243-4a93-bd76-00d46f56d7ce")
 	)
 	(fp_line
-		(start -1.2 0.6)
-		(end -0.9 0.6)
+		(start -0.2 0.6)
+		(end 0.2 0.6)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "d1f975f0-d1ea-4d3b-9511-048a34a37a0a")
+		(uuid "0c4e0439-01ca-41c8-a2fb-ee22ded6290d")
 	)
 	(fp_line
 		(start -1.2 -0.7)
@@ -191,7 +191,7 @@
 		(uuid "1e9a0e8d-7344-4a9d-8f22-7a1b4b4382e0")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0.4 -2 0)
 		(layer "F.Fab")
 		(uuid "241b20e4-5936-4914-80ba-13edfe03d004")
 		(effects
@@ -201,18 +201,16 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
+	(pad "1" smd rect
 		(at -0.7 0 180)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
 		(uuid "0a730c22-5295-4f74-be7e-c5ce25b9692c")
 	)
-	(pad "2" smd roundrect
+	(pad "2" smd rect
 		(at 0.7 0 180)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
 		(uuid "0048822b-dc04-4b42-ace6-d2d3ec208472")
 	)
 	(model "${KIPRJMOD}/4-Library/3-3DModels/LESD5D5.0CT1G.stp"

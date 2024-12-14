@@ -87,8 +87,8 @@
 		(uuid "0cd96b71-d32c-4bd6-b816-3cd230592674")
 	)
 	(fp_circle
-		(center -2.5 2.7)
-		(end -2.4 2.7)
+		(center 2.2 -2)
+		(end 2.3 -2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -178,8 +178,8 @@
 		(uuid "cfedaf52-08e4-49fc-b359-6f22a5cfa01a")
 	)
 	(fp_circle
-		(center -2.2 0.9)
-		(end -2.1 0.9)
+		(center 2.2 -0.7)
+		(end 2.3 -0.7)
 		(stroke
 			(width 0.1)
 			(type default)

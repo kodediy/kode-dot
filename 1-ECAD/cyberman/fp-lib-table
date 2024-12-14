@@ -13,4 +13,5 @@
   (lib (name "0_inductor_smd")(type "KiCad")(uri "${KIPRJMOD}/4-Library/2-Footprints/0_inductor_smd.pretty")(options "")(descr ""))
   (lib (name "0_switch")(type "KiCad")(uri "${KIPRJMOD}/4-Library/2-Footprints/0_switch.pretty")(options "")(descr ""))
   (lib (name "0_diode_smd")(type "KiCad")(uri "${KIPRJMOD}/4-Library/2-Footprints/0_diode_smd.pretty")(options "")(descr ""))
+  (lib (name "0_fuses_smd")(type "KiCad")(uri "${KIPRJMOD}/4-Library/2-Footprints/0_fuses_smd.pretty")(options "")(descr ""))
 )

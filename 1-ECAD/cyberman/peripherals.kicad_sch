@@ -1478,6 +1478,191 @@
 				)
 			)
 		)
+		(symbol "0_fuse_smd:ERBRD2R00X"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FU"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ERBRD2R00X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "0_fuses_smd:ERBRD0R63X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AFA0000/AFA0000C7.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FUSE BOARD MOUNT 2A 32VDC 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Current" "2A"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Package" "0402"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "kode PN" "DOTFU001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panasonic Electronic Components"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer PN" "ERBRD2R00X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1 PN" "C424348"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "FUSE BOARD MOUNT 2A 32VDC 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ERBRD2R00X_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ERBRD2R00X_1_1"
+				(pin unspecified line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "0_resistor_smd:RC0402FR-0710KL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2618,21 +2803,21 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x05"
+		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x05"
+			(property "Value" "Conn_01x04"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -2658,7 +2843,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2685,7 +2870,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x05_1_1"
+			(symbol "Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -2731,18 +2916,7 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 6.35)
+					(start -1.27 3.81)
 					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
@@ -2753,7 +2927,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -2771,7 +2945,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -2789,7 +2963,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -2807,7 +2981,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -2817,157 +2991,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:Fuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3735,12 +3758,6 @@
 		(uuid "aa9413f4-2c61-43cd-bde8-3eaad1d15a5f")
 	)
 	(junction
-		(at 102.87 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab643a8a-bbc7-4f13-a3d7-218d48073385")
-	)
-	(junction
 		(at 370.84 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4178,16 +4195,6 @@
 			(type default)
 		)
 		(uuid "0da41769-719f-442b-a150-800ac2f9a6cf")
-	)
-	(wire
-		(pts
-			(xy 102.87 198.12) (xy 102.87 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dd67901-6f47-4b9a-a594-b6e2ee8de098")
 	)
 	(wire
 		(pts
@@ -4681,16 +4688,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 198.12) (xy 102.87 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3991f802-fb3b-4da0-9c97-5ac2f39e9c25")
-	)
-	(wire
-		(pts
 			(xy 241.3 59.69) (xy 241.3 57.15)
 		)
 		(stroke
@@ -5028,16 +5025,6 @@
 			(type default)
 		)
 		(uuid "53108e4d-df9f-419b-a6be-438e7f511f7b")
-	)
-	(wire
-		(pts
-			(xy 102.87 208.28) (xy 102.87 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "532ef48e-dab6-40a4-a51f-39e552c18dd1")
 	)
 	(wire
 		(pts
@@ -6021,16 +6008,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 193.04) (xy 124.46 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e920877-1900-449c-8cc1-d8da612bbb04")
-	)
-	(wire
-		(pts
 			(xy 280.67 54.61) (xy 280.67 67.31)
 		)
 		(stroke
@@ -6148,16 +6125,6 @@
 			(type default)
 		)
 		(uuid "a7bab220-cc20-4a0a-84f0-931c23ea37e6")
-	)
-	(wire
-		(pts
-			(xy 102.87 195.58) (xy 102.87 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7cad749-35ea-483e-ab04-449c26e1f877")
 	)
 	(wire
 		(pts
@@ -7098,16 +7065,6 @@
 			(type default)
 		)
 		(uuid "f1596a23-424f-4e0c-ac3c-7f6d31fbf1de")
-	)
-	(wire
-		(pts
-			(xy 107.95 193.04) (xy 107.95 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f15ee37b-1e6e-4e47-9eb4-6407acd5fcde")
 	)
 	(wire
 		(pts
@@ -9562,7 +9519,7 @@
 		)
 		(uuid "fce5ed01-c392-4729-9588-ab4cdac05bcd")
 	)
-	(label "U0RXD"
+	(label "6"
 		(at 220.98 177.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9595,7 +9552,7 @@
 		)
 		(uuid "176d2fad-7476-40a6-b547-6e839b4709fc")
 	)
-	(label "U0TXD"
+	(label "1"
 		(at 220.98 165.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9639,7 +9596,7 @@
 		)
 		(uuid "2c0f8513-7b49-4592-afe3-a5b59caa5b2d")
 	)
-	(label "U0RXD"
+	(label "8"
 		(at 220.98 182.88 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9650,7 +9607,7 @@
 		)
 		(uuid "2fe15eb0-6754-4793-bc8a-d04640e1b164")
 	)
-	(label "U0TXD"
+	(label "7"
 		(at 220.98 180.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9694,7 +9651,7 @@
 		)
 		(uuid "3a88a386-99c6-4147-99bd-8e8706dfc46d")
 	)
-	(label "U0TXD"
+	(label "13"
 		(at 388.62 175.26 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9705,7 +9662,7 @@
 		)
 		(uuid "44df91f6-cb77-4f68-824a-def46162296f")
 	)
-	(label "U0TXD"
+	(label "9"
 		(at 388.62 165.1 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9716,7 +9673,7 @@
 		)
 		(uuid "463b7ce5-62ca-4df2-bd86-95adff19d91e")
 	)
-	(label "U0RXD"
+	(label "2"
 		(at 220.98 167.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9749,7 +9706,7 @@
 		)
 		(uuid "696fd96e-6266-4777-9319-399f86d5136e")
 	)
-	(label "U0TXD"
+	(label "15"
 		(at 388.62 180.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9760,7 +9717,7 @@
 		)
 		(uuid "727a9200-0ad9-47fc-bf86-86e3bf6c53de")
 	)
-	(label "U0TXD"
+	(label "5"
 		(at 220.98 175.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9771,7 +9728,7 @@
 		)
 		(uuid "7b5761ec-6c67-46ef-b797-07af0749f549")
 	)
-	(label "U0TXD"
+	(label "3"
 		(at 220.98 170.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9826,7 +9783,7 @@
 		)
 		(uuid "94c819a2-aaf3-4a10-a2e2-b10fb29ee61e")
 	)
-	(label "U0RXD"
+	(label "10"
 		(at 388.62 167.64 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9870,7 +9827,7 @@
 		)
 		(uuid "ba7e0e02-e817-4084-bfe0-c9fba6a9991c")
 	)
-	(label "U0RXD"
+	(label "12"
 		(at 388.62 172.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9914,7 +9871,7 @@
 		)
 		(uuid "cb393b19-254c-45d7-89e6-37fffe84df41")
 	)
-	(label "U0RXD"
+	(label "16"
 		(at 388.62 182.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9936,7 +9893,7 @@
 		)
 		(uuid "d4f0646b-63c5-491e-b6aa-a36f43e25c97")
 	)
-	(label "U0RXD"
+	(label "4"
 		(at 220.98 172.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9969,7 +9926,7 @@
 		)
 		(uuid "e8a9eda7-bce6-4226-b92f-d3601f791368")
 	)
-	(label "U0TXD"
+	(label "11"
 		(at 388.62 170.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9980,7 +9937,7 @@
 		)
 		(uuid "f259acfb-f062-4493-a4de-b1e74d804b6d")
 	)
-	(label "U0RXD"
+	(label "14"
 		(at 388.62 177.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11352,6 +11309,139 @@
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
 					(reference "D830")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_fuse_smd:ERBRD2R00X")
+		(at 91.44 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23dfb8ce-ade5-4ccd-b771-d94eef3b6908")
+		(property "Reference" "FU802"
+			(at 93.98 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ERBRD2R00X"
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_fuses_smd:ERBRD0R63X"
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AFA0000/AFA0000C7.pdf"
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FUSE BOARD MOUNT 2A 32VDC 0402"
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Current" "2A"
+			(at 93.98 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0402"
+			(at 93.98 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "kode PN" "DOTFU001"
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERBRD2R00X"
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 PN" "C424348"
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93d48d50-8de6-447b-a948-7ce1737d40e3")
+		)
+		(pin "1"
+			(uuid "09bdf116-702c-4524-8622-4088157aab57")
+		)
+		(instances
+			(project "cyberman"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
+					(reference "FU802")
 					(unit 1)
 				)
 			)
@@ -12751,72 +12841,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 102.87 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "313e842a-cef9-465a-97ea-a09b52dbef89")
-		(property "Reference" "#PWR0815"
-			(at 102.87 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EXT_3V3"
-			(at 102.87 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 102.87 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0b53d1f-f910-4262-b855-c38586e62a26")
-		)
-		(instances
-			(project "cyberman"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
-					(reference "#PWR0815")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 287.02 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13686,72 +13710,6 @@
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
 					(reference "D810")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 102.87 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53f73159-8fa6-468f-96e8-3091c7308396")
-		(property "Reference" "#PWR0820"
-			(at 102.87 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91094d94-b00b-4948-9a70-5a1f92966ce6")
-		)
-		(instances
-			(project "cyberman"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
-					(reference "#PWR0820")
 					(unit 1)
 				)
 			)
@@ -16173,76 +16131,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 322.58 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81cf9978-7acd-4cc7-810a-ab300133ddbb")
-		(property "Reference" "F801"
-			(at 325.12 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 325.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.802 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 322.58 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23027b59-67b4-4df0-bbe2-384749cf454d")
-		)
-		(pin "2"
-			(uuid "5d76b7bf-db79-4b27-9a54-508bb0448cae")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
-					(reference "F801")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_diode:LESD5D5.0CT1G")
 		(at 350.52 194.31 0)
 		(mirror y)
@@ -16856,7 +16744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96b03616-c4d7-4d2f-a922-6fe3d04e3fef")
-		(property "Reference" "#PWR0816"
+		(property "Reference" "#PWR0815"
 			(at 121.92 201.93 0)
 			(effects
 				(font
@@ -16906,7 +16794,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
-					(reference "#PWR0816")
+					(reference "#PWR0815")
 					(unit 1)
 				)
 			)
@@ -17058,6 +16946,139 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
 					(reference "C801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_fuse_smd:ERBRD2R00X")
+		(at 322.58 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bd37b5d-09ff-4819-b6e3-bb2179ab2702")
+		(property "Reference" "FU801"
+			(at 325.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ERBRD2R00X"
+			(at 322.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_fuses_smd:ERBRD0R63X"
+			(at 322.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AFA0000/AFA0000C7.pdf"
+			(at 322.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FUSE BOARD MOUNT 2A 32VDC 0402"
+			(at 322.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Current" "2A"
+			(at 325.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0402"
+			(at 325.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "kode PN" "DOTFU001"
+			(at 322.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 322.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERBRD2R00X"
+			(at 322.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 322.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 PN" "C424348"
+			(at 322.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f4e9024-b4f6-46c0-9acc-4a008c906a02")
+		)
+		(pin "1"
+			(uuid "ad85d3e6-0860-4dc3-ac9b-ddb37b05714f")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
+					(reference "FU801")
 					(unit 1)
 				)
 			)
@@ -19278,77 +19299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 91.44 179.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6670e82-30c4-4265-9893-9f157df11a82")
-		(property "Reference" "F802"
-			(at 88.9 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 88.9 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.218 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 91.44 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e279082f-c14d-47b6-91dd-5e479fe6e2ae")
-		)
-		(pin "2"
-			(uuid "7b921ec9-0a8b-42e7-9cb9-8dc74e74115c")
-		)
-		(instances
-			(project "cyberman"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
-					(reference "F802")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_resistor_smd:RC0402FR-0751RL")
 		(at 336.55 177.8 270)
 		(mirror x)
@@ -20189,6 +20139,82 @@
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
 					(reference "R823")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 129.54 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d90674dd-850b-49dc-a40e-b274a7291300")
+		(property "Reference" "J802"
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 132.08 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24fc2632-cdbe-4590-abd6-b7cb97a21fb8")
+		)
+		(pin "4"
+			(uuid "9a919f75-45d8-4634-9add-7c93eefe84ba")
+		)
+		(pin "3"
+			(uuid "470fdb64-d28d-4e3b-a1db-b16c0a0e1892")
+		)
+		(pin "1"
+			(uuid "44d25773-52b5-428e-a721-fff7e2884bb4")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
+					(reference "J802")
 					(unit 1)
 				)
 			)
@@ -21045,121 +21071,6 @@
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
 					(reference "R811")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_diode:LESD8D3.3CAT5G")
-		(at 102.87 204.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4eb027a-2b26-4005-839a-c095b1f247c5")
-		(property "Reference" "D834"
-			(at 105.41 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LESD8D3.3CAT5G"
-			(at 105.41 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_diode_smd:LESD8D3.3CAT5G"
-			(at 102.87 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lrc.cn/Upload/PDF/Product/ESD/LESD8D3.3CAT5G.pdf"
-			(at 102.87 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6A 10V 5V Bidirectional 3.3V SOD-882"
-			(at 102.87 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kode PN" "DOTD001"
-			(at 102.87 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "LRC"
-			(at 102.87 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" "LESD8D3.3CAT5G"
-			(at 102.87 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 102.87 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 PN" "C383211"
-			(at 102.87 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "164a10f8-ccc3-4dd8-8273-3dcae19737ff")
-		)
-		(pin "1"
-			(uuid "3c6acc19-6836-4eca-9369-39f428e678f2")
-		)
-		(instances
-			(project "cyberman"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
-					(reference "D834")
 					(unit 1)
 				)
 			)
@@ -22342,85 +22253,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 129.54 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3d8f6e2-0890-4c4f-a38d-7ea17d16ce8a")
-		(property "Reference" "J802"
-			(at 132.08 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 132.08 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 129.54 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cd46c30f-457e-433d-bd23-a40a412a3630")
-		)
-		(pin "5"
-			(uuid "8bb99356-4c96-41a3-a6f7-37e5b66d3d08")
-		)
-		(pin "4"
-			(uuid "35677dfa-c63f-4e51-a81f-d839b31919b6")
-		)
-		(pin "1"
-			(uuid "38516b7b-d1e6-4ded-ad1a-30f842834eee")
-		)
-		(pin "2"
-			(uuid "f77adebe-d37e-4007-8e2d-8cd29a3ddcff")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
-					(reference "J802")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_resistor_smd:RC0402FR-0751RL")
 		(at 273.05 167.64 90)
 		(unit 1)
@@ -22577,7 +22409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f78bd47d-fdf1-49fa-b1a5-709f33ab4f77")
-		(property "Reference" "#PWR0818"
+		(property "Reference" "#PWR0817"
 			(at 363.22 212.09 0)
 			(effects
 				(font
@@ -22627,7 +22459,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
-					(reference "#PWR0818")
+					(reference "#PWR0817")
 					(unit 1)
 				)
 			)
@@ -22643,7 +22475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f910bee8-16a2-433e-a77b-4cf1865fe077")
-		(property "Reference" "#PWR0819"
+		(property "Reference" "#PWR0818"
 			(at 66.04 217.17 0)
 			(effects
 				(font
@@ -22693,7 +22525,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
-					(reference "#PWR0819")
+					(reference "#PWR0818")
 					(unit 1)
 				)
 			)
@@ -22709,7 +22541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f92c7cec-9b13-4dda-8146-97532386b34b")
-		(property "Reference" "#PWR0817"
+		(property "Reference" "#PWR0816"
 			(at 246.38 212.09 0)
 			(effects
 				(font
@@ -22759,7 +22591,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7c79e64d-6bcf-40af-a5ad-7c52beef15e9"
-					(reference "#PWR0817")
+					(reference "#PWR0816")
 					(unit 1)
 				)
 			)
