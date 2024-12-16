@@ -6684,6 +6684,54 @@
 		)
 		(uuid "fbe1d814-a823-44e5-ba26-7b61bb87ef83")
 	)
+	(rectangle
+		(start 245.11 58.42)
+		(end 245.11 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1bc2371e-37d0-45e3-9a12-3159f6eadc0d)
+	)
+	(rectangle
+		(start 189.23 17.78)
+		(end 238.76 63.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 63b6fd41-0b12-4021-85f0-9541a05294af)
+	)
+	(rectangle
+		(start 93.98 111.76)
+		(end 143.51 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 86e3d1b5-1682-41b7-8edc-c3d8eaf3c68e)
+	)
+	(rectangle
+		(start 193.04 109.22)
+		(end 242.57 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a72f1de7-bfdc-4e41-bd7a-06493b6e53b1)
+	)
 	(text_box "DESIGN NOTE:\nTBD Resistor of ILIM"
 		(exclude_from_sim no)
 		(at 17.78 16.51 0)
