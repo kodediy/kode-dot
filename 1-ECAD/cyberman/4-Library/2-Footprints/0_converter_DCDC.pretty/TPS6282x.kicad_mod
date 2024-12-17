@@ -1,4 +1,4 @@
-(footprint "TPS6282533DMQR"
+(footprint "TPS6282x"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "TPS6282533DMQR"
+	(property "Value" "TPS6282x"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -25,7 +25,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.254)
+				(thickness 0.25)
 			)
 		)
 	)
@@ -237,7 +237,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8795b6ed-f0f4-4f6a-84a1-b63efa68fdec")
 	)
-	(model "${KIPRJMOD}/4-Library/3-3DModels/TPS6282533DMQR.stp"
+	(model "${KIPRJMOD}/4-Library/3-3DModels/TPS6282x.stp"
 		(offset
 			(xyz 0 0 0)
 		)

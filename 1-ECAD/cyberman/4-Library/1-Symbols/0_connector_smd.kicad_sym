@@ -1779,7 +1779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connector_smd:S3B-ZR-SM4A-TF"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1870,14 +1870,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(text "TBD\nBAT pinout"
-				(at 7.62 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(pin unspecified line

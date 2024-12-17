@@ -1846,7 +1846,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -5.08 180)
+				(at 27.94 -10.16 180)
 				(length 2.54)
 				(name "CTG"
 					(effects
@@ -1918,7 +1918,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -15.24 0)
+				(at -2.54 -12.7 0)
 				(length 2.54)
 				(name "~{ALRT}"
 					(effects
@@ -1936,7 +1936,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -10.16 180)
+				(at -2.54 -15.24 0)
 				(length 2.54)
 				(name "QSTRT"
 					(effects
@@ -1954,7 +1954,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -10.16 0)
+				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -1972,7 +1972,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -12.7 0)
+				(at -2.54 -10.16 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
