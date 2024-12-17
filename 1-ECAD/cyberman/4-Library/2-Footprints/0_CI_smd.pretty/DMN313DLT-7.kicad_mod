@@ -1,14 +1,14 @@
-(footprint "DMP1045U-7"
+(footprint "DMN313DLT-7"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "MOSFET P-CH 12V 4A SOT23")
-	(tags "MOSFET P-CH 12V 4A SOT23")
+	(descr "MOSFET N-CH 30V 270MA SOT523")
+	(tags "MOSFET N-CH 30V 270MA SOT523")
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "d0d2dff8-b96e-4e2a-bfac-8cb075ee98a5")
+		(uuid "0fc6abc3-9cb2-462c-9f3e-de6c766aeca7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "DMP1045U-7"
+	(property "Value" "DMN313DLT-7"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "2a6e6bed-fb8c-4de4-a223-dfa8184f1c79")
+		(uuid "1db09ede-b15f-4926-8f42-46967620f5db")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e23c87f4-f776-43f8-a414-cf5f383e4005")
+		(uuid "08b43ac9-88f9-48be-aec1-cab6982a06cb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,11 +40,11 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.diodes.com/datasheet/download/DMP1045U.pdf"
+	(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN313DLT.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3904130f-459a-4a48-a6dc-f16dc5a6acc2")
+		(uuid "15325d22-2066-4094-96eb-2bc67d00fead")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,11 +52,11 @@
 			)
 		)
 	)
-	(property "Description" "MOSFET P-CH 12V 4A SOT23"
+	(property "Description" "MOSFET N-CH 30V 270MA SOT523"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "782addca-993e-4edd-a0b1-67dde856f5e2")
+		(uuid "524fa7fe-7a9e-498c-ab46-9f54d2d795b9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -67,131 +67,131 @@
 	(solder_mask_margin 0.051)
 	(attr smd)
 	(fp_line
-		(start -0.4 -1.7)
-		(end 0.4 -1.7)
+		(start -0.2 -0.9)
+		(end 0.2 -0.9)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "af743961-f1f9-4304-b38e-b627fc22e174")
+		(uuid "f5614393-5601-411e-8c00-0b94f7c53c8d")
 	)
 	(fp_line
-		(start -0.4 1.7)
-		(end 0.4 1.7)
+		(start -0.2 0.9)
+		(end 0.2 0.9)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "a77641e9-7573-4528-a531-c2a7e45bc1e0")
+		(uuid "0cd394ca-1b42-4788-b6fc-225088ed47b1")
 	)
 	(fp_circle
-		(center -2 -1)
-		(end -1.9 -1)
+		(center -1.4 -0.5)
+		(end -1.3 -0.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "912a1bfb-e3db-4042-b55e-0c874ec8037d")
+		(uuid "3e919a9d-7bd8-4990-9b03-fa54aee01bd6")
 	)
 	(fp_line
-		(start -2 -2)
-		(end 2 -2)
+		(start -1.4 -1.3)
+		(end 1.4 -1.3)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "33c20994-bd50-4b04-84c2-4937beb4291d")
+		(uuid "e977970b-ddff-4856-a205-0486943fa7c0")
 	)
 	(fp_line
-		(start -2 2)
-		(end -2 -2)
+		(start -1.4 1.3)
+		(end -1.4 -1.3)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "eae6b70b-4b6c-42f3-80ea-233724f49199")
+		(uuid "bb27815e-c4b3-49ff-a10b-db57e8fda35e")
 	)
 	(fp_line
-		(start 2 -2)
-		(end 2 2)
+		(start 1.4 -1.3)
+		(end 1.4 1.3)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ff17a118-3e30-423e-a6dd-b3a6608cdf61")
+		(uuid "dcd61f38-b6fb-44d3-ad2b-51ba45f2e9d3")
 	)
 	(fp_line
-		(start 2 2)
-		(end -2 2)
+		(start 1.4 1.3)
+		(end -1.4 1.3)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3c6510ad-375a-4758-b316-a46f18bc11a4")
+		(uuid "10151c7d-f298-4ac6-884d-cabe221c2267")
 	)
 	(fp_line
-		(start -0.65 -1.45)
-		(end 0.65 -1.45)
+		(start -0.4 -0.8)
+		(end 0.4 -0.8)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1236e9f3-7092-4f31-8acb-891efe3f3bd1")
+		(uuid "6a70e815-87a1-47a5-a752-25a445123091")
 	)
 	(fp_line
-		(start -0.65 1.45)
-		(end -0.65 -1.45)
+		(start -0.4 0.8)
+		(end -0.4 -0.8)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3c71945b-9bdc-4bf1-8a9a-5a0453d33275")
+		(uuid "7df5298d-7fc5-47f6-89e6-9c3f4e978c72")
 	)
 	(fp_line
-		(start 0.65 -1.45)
-		(end 0.65 1.45)
+		(start 0.4 -0.8)
+		(end 0.4 0.8)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3c9c5049-4e25-49a6-94cf-472413d5284b")
+		(uuid "e0b2c8f7-d385-4bba-b1cd-c9c9ac3424c0")
 	)
 	(fp_line
-		(start 0.65 1.45)
-		(end -0.65 1.45)
+		(start 0.4 0.8)
+		(end -0.4 0.8)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8fc81c64-62ee-4046-b65d-bc529014e0e9")
+		(uuid "731a3e0f-01cc-4fb1-92cd-0e46503ca807")
 	)
 	(fp_circle
-		(center -0.2 -1)
-		(end -0.1 -1)
+		(center -0.1 -0.5)
+		(end 0 -0.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill solid)
 		(layer "F.Fab")
-		(uuid "a6acc2a2-f0c2-4175-a35b-634d628e0f81")
+		(uuid "e9a606e7-121d-4cf8-a943-a51a8091e217")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "e36525e2-2d72-4ecc-ae2e-371f14b93c22")
+		(uuid "81058583-7f53-4f8e-8bbb-eb02f8902b9b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -200,32 +200,32 @@
 		)
 	)
 	(pad "D" smd rect
-		(at 1 0 90)
-		(size 0.8 0.9)
+		(at 0.645 0 90)
+		(size 0.4 0.51)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "1f38b124-c95c-4b49-9b3f-e3a3c3151f58")
+		(uuid "0d0f859f-355e-4934-9ce7-1bf6ecb32874")
 	)
 	(pad "G" smd rect
-		(at -1 -0.95 90)
-		(size 0.8 0.9)
+		(at -0.645 -0.5 90)
+		(size 0.4 0.51)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "24b778ef-f337-452e-bc3b-5ea0e5aed557")
+		(uuid "9650c1ca-334a-4995-aac8-4d2547294c4c")
 	)
 	(pad "S" smd rect
-		(at -1 0.95 90)
-		(size 0.8 0.9)
+		(at -0.645 0.5 90)
+		(size 0.4 0.51)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "6b7cc523-4f2a-4bcd-9f4b-b7bd968ab577")
+		(uuid "d1134b5c-6bb9-4316-a29b-d9269a8e3c5f")
 	)
-	(model "${KIPRJMOD}/4-Library/3-3DModels/DMP1045U-7.stp"
+	(model "${KIPRJMOD}/4-Library/3-3DModels/DMN313DLT-7.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.8 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 90)
 		)
 	)
 )
