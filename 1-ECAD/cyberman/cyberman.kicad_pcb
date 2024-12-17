@@ -21406,7 +21406,7 @@
 		(descr "MOTION SENSOR accelerometer, gyroscope")
 		(tags "MOTION SENSOR accelerometer, gyroscope")
 		(property "Reference" "U1004"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "597b674f-26bf-49ab-904b-591ef4d510ef")
 			(effects
@@ -21418,7 +21418,7 @@
 			)
 		)
 		(property "Value" "LSM6DSOTR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "df06f366-3f52-43c1-8684-267c741feaec")
@@ -21431,7 +21431,7 @@
 			)
 		)
 		(property "Footprint" "0_sensor:LSM6DSOTR"
-			(at 0.1 0 360)
+			(at 0.1 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0db9efa7-e708-454c-a5b1-d75bd22d5317")
@@ -21444,7 +21444,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dso.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7e8161a3-3c52-4124-9e7f-8821c2041df9")
@@ -21457,7 +21457,7 @@
 			)
 		)
 		(property "Description" "MOTION SENSOR accelerometer, gyroscope"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1eeb0463-6e82-4788-8dde-cd9580004171")
@@ -21970,7 +21970,7 @@
 			(uuid "fada50c5-a6d8-44ab-9d91-0d895b9bb689")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "d85fc983-830e-4c45-9bb1-a7a5adaa33b8")
 			(effects
@@ -23726,7 +23726,7 @@
 		(descr "C_0402")
 		(tags "C_0402")
 		(property "Reference" "C1010"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "b433bf84-ac70-4580-ad3c-60427bb20678")
 			(effects
@@ -23738,7 +23738,7 @@
 			)
 		)
 		(property "Value" "CC0402KRX7R8BB104"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "2a3ab8b3-5634-452d-8357-f0a8a655806b")
@@ -23751,7 +23751,7 @@
 			)
 		)
 		(property "Footprint" "0_capacitor_smd:C_0402"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6740d54a-4a22-4bf5-9dac-b25b1f486d50")
@@ -23764,7 +23764,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6def4d1b-f2e4-4a78-9419-071e2360d0ca")
@@ -23777,7 +23777,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4a4b2f47-b51f-46de-a1e8-f566ee1db745")
@@ -24021,7 +24021,7 @@
 			(uuid "711eaece-a32c-4284-a36b-78704da6b699")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "5e62ea64-a0cc-4404-ba36-4134c57325f5")
 			(effects
@@ -27276,7 +27276,7 @@
 		(descr "SENSOR MR I2C/SPI 12LGA")
 		(tags "SENSOR MR I2C/SPI 12LGA")
 		(property "Reference" "U1003"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "1c261e08-9912-4fe7-9c5f-263de1902dc9")
 			(effects
@@ -27288,7 +27288,7 @@
 			)
 		)
 		(property "Value" "LIS2MDLTR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "36284262-4392-42b0-b26c-aa6b93626d2b")
@@ -27301,7 +27301,7 @@
 			)
 		)
 		(property "Footprint" "0_sensor:LIS2MDLTR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7ef57022-6c71-40d0-9096-8b81bbfab492")
@@ -27314,7 +27314,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2mdl.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e466dbb7-9532-4495-9a39-22c953959dcd")
@@ -27327,7 +27327,7 @@
 			)
 		)
 		(property "Description" "SENSOR MR I2C/SPI 12LGA"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fb6545d9-1b34-443c-8267-659b3f333989")
@@ -27829,7 +27829,7 @@
 			(uuid "f944bb7f-5367-4792-82ef-5cb0449122e2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "649b5f47-9149-471a-bdbb-e915cc2cb069")
 			(effects
@@ -28655,7 +28655,7 @@
 		(descr "C_0402")
 		(tags "C_0402")
 		(property "Reference" "C1011"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "8c2b6e4e-523a-4343-b9f9-e612fb197f90")
 			(effects
@@ -28667,7 +28667,7 @@
 			)
 		)
 		(property "Value" "CC0402KRX5R8BB224"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "072b5e9a-6646-495a-b76d-99301914460d")
@@ -28680,7 +28680,7 @@
 			)
 		)
 		(property "Footprint" "0_capacitor_smd:C_0402"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a8d23901-1ecb-446c-aae9-43bc122089d4")
@@ -28693,7 +28693,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ee5dbc53-df0d-4aaf-b127-ced27129a430")
@@ -28706,7 +28706,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.22UF 25V X5R 0402"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d9a55efb-3501-4ff6-a580-d75c7ee728c1")
@@ -28936,7 +28936,7 @@
 			(uuid "dcb16967-13c6-463d-9717-5437918f9185")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "07d585c6-4104-42ce-9433-c114e72ecee2")
 			(effects
@@ -41603,7 +41603,7 @@
 		(descr "C_0402")
 		(tags "C_0402")
 		(property "Reference" "C1008"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "571004d0-9f39-49f1-892f-8abe576ac9b5")
 			(effects
@@ -41615,7 +41615,7 @@
 			)
 		)
 		(property "Value" "CC0402KRX7R8BB104"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "1fe136dd-2b45-4a38-9d9d-9085e0cb17ac")
@@ -41628,7 +41628,7 @@
 			)
 		)
 		(property "Footprint" "0_capacitor_smd:C_0402"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "34241fb4-8cbd-4453-9703-582068ce8432")
@@ -41641,7 +41641,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "31bb647c-ed13-4d6a-8642-619139d2b269")
@@ -41654,7 +41654,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d5e411c1-eb46-46ba-a485-8d33c01dc22c")
@@ -41898,7 +41898,7 @@
 			(uuid "98166300-0caa-4f4b-992a-16e04fe3deac")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "d3596af9-da08-49af-9e22-77891c01a079")
 			(effects

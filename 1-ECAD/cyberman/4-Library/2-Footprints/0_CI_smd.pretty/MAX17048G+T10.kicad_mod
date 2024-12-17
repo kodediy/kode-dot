@@ -1,0 +1,270 @@
+(footprint "MAX17048G+T10"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IC BATT MON LI-ION 1CELL 8TDFN")
+	(tags "IC BATT MON LI-ION 1CELL 8TDFN")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3a87bce0-3ffb-45b9-9328-36526fb040bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "MAX17048G+T10"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "145ee7e9-1f00-412f-b71e-fa0e87e9d1bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcbb9011-4d70-4bbd-9e41-0b58f1ad47c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4bd139b-8f0e-4098-8aae-f7b1f683eea8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Description" "IC BATT MON LI-ION 1CELL 8TDFN"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "685ee0f9-0eb8-446f-9a9f-a222906e0c70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(solder_mask_margin 0.051)
+	(attr smd)
+	(fp_line
+		(start -0.511748 1.1811)
+		(end 0.511748 1.1811)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4e81529-1f21-4cb2-b6b5-d2a27feee60b")
+	)
+	(fp_line
+		(start 0.511748 -1.1811)
+		(end -0.511748 -1.1811)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "272fd860-c652-4784-9aac-e8b9ff57f1c9")
+	)
+	(fp_circle
+		(center -1.9 -0.8)
+		(end -1.8 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f4f94572-ea1d-48f6-a1f0-32c5d3968c2a")
+	)
+	(fp_line
+		(start -1.9 -1.6)
+		(end 1.9 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4cd0e30a-9f16-4498-ab6e-e495dc03ec44")
+	)
+	(fp_line
+		(start -1.9 1.6)
+		(end -1.9 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffef85d2-7090-4f34-ae93-f72b91ef164c")
+	)
+	(fp_line
+		(start 1.9 -1.6)
+		(end 1.9 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8dedaf6a-cb96-47c2-b939-31a052a3e865")
+	)
+	(fp_line
+		(start 1.9 1.6)
+		(end -1.9 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d8bc216-44fa-4df5-a171-57ada52b7645")
+	)
+	(fp_line
+		(start -1.0541 -1.0541)
+		(end -1.0541 1.0541)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a432c386-8511-4bbc-bdeb-7a7659753296")
+	)
+	(fp_line
+		(start -1.0541 1.0541)
+		(end 1.0541 1.0541)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e695f59f-bd0e-479d-a7b4-2a3852d06684")
+	)
+	(fp_line
+		(start 1.0541 -1.0541)
+		(end -1.0541 -1.0541)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d12f7ca9-fd99-4cec-a4d3-0eed01c53bfa")
+	)
+	(fp_line
+		(start 1.0541 1.0541)
+		(end 1.0541 -1.0541)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f262e996-efa3-43c7-8cda-d127e16da7a5")
+	)
+	(fp_circle
+		(center -0.7 -0.7)
+		(end -0.6 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "51802b53-7997-4b5c-aeae-d60656d77a8a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "91d4e8bd-72f0-461a-83a6-e5087ce96650")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.0009 -0.750001)
+		(size 0.706399 0.2548)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8df8a10c-ba8e-4890-a771-ed3bea16b71f")
+	)
+	(pad "2" smd rect
+		(at -1.0009 -0.25)
+		(size 0.706399 0.2548)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8c0737d6-1a28-4908-b585-23cdd8346099")
+	)
+	(pad "3" smd rect
+		(at -1.0009 0.25)
+		(size 0.706399 0.2548)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "00f8fccf-e956-4faf-8bb9-ed24527a524c")
+	)
+	(pad "4" smd rect
+		(at -1.0009 0.750001)
+		(size 0.706399 0.2548)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bd223d6f-e4ec-4217-ad09-6ca90b5ed3d1")
+	)
+	(pad "5" smd rect
+		(at 1.0009 0.750001)
+		(size 0.706399 0.2548)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "32b790fd-6624-4a9d-8c4e-1260276c4bf0")
+	)
+	(pad "6" smd rect
+		(at 1.0009 0.25)
+		(size 0.706399 0.2548)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ef39d837-45d7-4ec8-a716-a161a296cada")
+	)
+	(pad "7" smd rect
+		(at 1.0009 -0.25)
+		(size 0.706399 0.2548)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "86ce2dab-d3fd-4679-8705-bf4007da1b91")
+	)
+	(pad "8" smd rect
+		(at 1.0009 -0.750001)
+		(size 0.706399 0.2548)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fd62b967-aa65-490f-a178-57f9f145d0a8")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 0.889 1.2954)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "87616132-f927-43ac-9d4d-3fb8df67271d")
+	)
+	(model "${KIPRJMOD}/4-Library/3-3DModels/MAX17048G+T10.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
