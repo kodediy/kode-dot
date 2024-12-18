@@ -5,7 +5,7 @@
 	(uuid "8f888e13-10ed-4978-a480-118565efd2b5")
 	(paper "A4")
 	(title_block
-		(date "2024-12-11")
+		(date "2024-12-18")
 		(rev "1.0")
 		(company "kode.")
 	)
@@ -1219,7 +1219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a7a308d-f92b-4efb-a3e2-07e702c9e4b0")
-		(property "Reference" "#PWR01105"
+		(property "Reference" "#PWR1105"
 			(at 184.15 67.31 0)
 			(effects
 				(font
@@ -1269,7 +1269,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9dd041dd-a789-48b0-a1c9-db40d4b09215"
-					(reference "#PWR01105")
+					(reference "#PWR1105")
 					(unit 1)
 				)
 			)
@@ -1292,7 +1292,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "R"
 			(at 177.8 50.8 90)
 			(effects
 				(font
@@ -1352,7 +1352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5adfb2b4-1018-4934-8dde-e1b049484be3")
-		(property "Reference" "#PWR01102"
+		(property "Reference" "#PWR1102"
 			(at 106.68 41.91 0)
 			(effects
 				(font
@@ -1402,7 +1402,7 @@
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9dd041dd-a789-48b0-a1c9-db40d4b09215"
-					(reference "#PWR01102")
+					(reference "#PWR1102")
 					(unit 1)
 				)
 			)
@@ -1433,7 +1433,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1628,7 +1627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 110.49 48.26 0)
 			(effects
 				(font
@@ -1664,14 +1663,6 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
-			(at 111.76 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1ab95c8b-f307-4a61-84ed-4d9f076cba6a")
 		)
@@ -1697,7 +1688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b05e8145-20dd-4b11-8ff5-fc7bb7df7045")
-		(property "Reference" "#PWR01104"
+		(property "Reference" "#PWR1104"
 			(at 121.92 62.23 0)
 			(effects
 				(font
@@ -1747,7 +1738,7 @@
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9dd041dd-a789-48b0-a1c9-db40d4b09215"
-					(reference "#PWR01104")
+					(reference "#PWR1104")
 					(unit 1)
 				)
 			)
@@ -1771,7 +1762,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "C"
 			(at 187.96 55.88 0)
 			(effects
 				(font
@@ -1807,14 +1798,6 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
-			(at 189.23 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "51635c1d-610f-4131-84e1-0d677d576508")
 		)
@@ -1847,7 +1830,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R"
 			(at 189.23 43.18 0)
 			(effects
 				(font
@@ -1907,7 +1890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5ef11f7-3570-4a07-b104-5baaad67b6c5")
-		(property "Reference" "#PWR01103"
+		(property "Reference" "#PWR1103"
 			(at 106.68 59.69 0)
 			(effects
 				(font
@@ -1957,7 +1940,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9dd041dd-a789-48b0-a1c9-db40d4b09215"
-					(reference "#PWR01103")
+					(reference "#PWR1103")
 					(unit 1)
 				)
 			)
@@ -1973,7 +1956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9a7b67e-2e98-4807-b7fe-13c89136d729")
-		(property "Reference" "#PWR01101"
+		(property "Reference" "#PWR1101"
 			(at 184.15 39.37 0)
 			(effects
 				(font
@@ -2023,7 +2006,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9dd041dd-a789-48b0-a1c9-db40d4b09215"
-					(reference "#PWR01101")
+					(reference "#PWR1101")
 					(unit 1)
 				)
 			)
@@ -2054,7 +2037,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""

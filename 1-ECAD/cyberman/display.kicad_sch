@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Display")
-		(date "2024-12-11")
+		(date "2024-12-18")
 		(rev "1.0")
 		(company "kode.")
 	)
@@ -3484,7 +3484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14b0d8bb-d4f6-4494-8259-e14c34f046b6")
-		(property "Reference" "#PWR0905"
+		(property "Reference" "#PWR905"
 			(at 129.54 114.3 0)
 			(effects
 				(font
@@ -3534,7 +3534,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/2aa3e5ea-7568-4e79-a9d1-34c3cd061408"
-					(reference "#PWR0905")
+					(reference "#PWR905")
 					(unit 1)
 				)
 			)
@@ -3550,7 +3550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19da92f0-7893-48e0-8d23-a73348f2c0ba")
-		(property "Reference" "#PWR0906"
+		(property "Reference" "#PWR906"
 			(at 129.54 132.08 0)
 			(effects
 				(font
@@ -3600,7 +3600,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/2aa3e5ea-7568-4e79-a9d1-34c3cd061408"
-					(reference "#PWR0906")
+					(reference "#PWR906")
 					(unit 1)
 				)
 			)
@@ -3616,7 +3616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ad188cc-89cb-4ecb-af68-18335562fda8")
-		(property "Reference" "#PWR0903"
+		(property "Reference" "#PWR903"
 			(at 100.33 111.76 0)
 			(effects
 				(font
@@ -3666,7 +3666,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/2aa3e5ea-7568-4e79-a9d1-34c3cd061408"
-					(reference "#PWR0903")
+					(reference "#PWR903")
 					(unit 1)
 				)
 			)
@@ -3833,7 +3833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5545cd9b-2661-430c-a86a-faf441399875")
-		(property "Reference" "#PWR0901"
+		(property "Reference" "#PWR901"
 			(at 87.63 93.98 0)
 			(effects
 				(font
@@ -3883,7 +3883,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/2aa3e5ea-7568-4e79-a9d1-34c3cd061408"
-					(reference "#PWR0901")
+					(reference "#PWR901")
 					(unit 1)
 				)
 			)
@@ -3899,7 +3899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71432edf-3986-4dac-8aa3-7e266f85b27b")
-		(property "Reference" "#PWR0907"
+		(property "Reference" "#PWR907"
 			(at 142.24 132.08 0)
 			(effects
 				(font
@@ -3949,7 +3949,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/2aa3e5ea-7568-4e79-a9d1-34c3cd061408"
-					(reference "#PWR0907")
+					(reference "#PWR907")
 					(unit 1)
 				)
 			)
@@ -4267,7 +4267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa6a86c0-8c17-43eb-85d8-7286d7130050")
-		(property "Reference" "#PWR0908"
+		(property "Reference" "#PWR908"
 			(at 154.94 137.16 0)
 			(effects
 				(font
@@ -4317,7 +4317,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/2aa3e5ea-7568-4e79-a9d1-34c3cd061408"
-					(reference "#PWR0908")
+					(reference "#PWR908")
 					(unit 1)
 				)
 			)
@@ -4679,7 +4679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1305471-a8e4-4df5-8b18-d9c0d69b58d8")
-		(property "Reference" "#PWR0904"
+		(property "Reference" "#PWR904"
 			(at 111.76 111.76 0)
 			(effects
 				(font
@@ -4729,7 +4729,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/2aa3e5ea-7568-4e79-a9d1-34c3cd061408"
-					(reference "#PWR0904")
+					(reference "#PWR904")
 					(unit 1)
 				)
 			)
@@ -4745,7 +4745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e50fb8cb-b53c-475a-a748-cbda35cda83b")
-		(property "Reference" "#PWR0902"
+		(property "Reference" "#PWR902"
 			(at 87.63 111.76 0)
 			(effects
 				(font
@@ -4795,7 +4795,7 @@
 		(instances
 			(project "cyberman"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/2aa3e5ea-7568-4e79-a9d1-34c3cd061408"
-					(reference "#PWR0902")
+					(reference "#PWR902")
 					(unit 1)
 				)
 			)

@@ -13,4 +13,5 @@
   (lib (name "0_capacitor_smd")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_capacitor_smd.kicad_sym")(options "")(descr ""))
   (lib (name "0_switch")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_switch.kicad_sym")(options "")(descr ""))
   (lib (name "0_fuse_smd")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_fuse_smd.kicad_sym")(options "")(descr ""))
+  (lib (name "0_test_points")(type "KiCad")(uri "${KIPRJMOD}/4-Library/1-Symbols/0_test_points.kicad_sym")(options "")(descr ""))
 )

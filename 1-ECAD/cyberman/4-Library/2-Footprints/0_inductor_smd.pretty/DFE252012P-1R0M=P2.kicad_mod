@@ -1,0 +1,203 @@
+(footprint "DFE252012P-1R0M=P2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "FIXED IND 1UH 3.2A 0.042OHM SMD")
+	(tags "FIXED IND 1UH 3.2A 0.042OHM SMD")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "9812cf00-603b-4ae2-a265-1b16ecefcb99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DFE252012P-1R0M=P2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "714c6b0b-cae9-4e66-9329-fb0428dd0e58")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce8dcbde-d9e8-4cd2-be3c-992f7aaad53a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe252012p.ashx"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53c34a05-994f-4c68-b832-2be56246d27b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "FIXED IND 1UH 3.2A 0.042OHM SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c04aa894-85bf-4361-80c0-fa55e51dedb6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.051)
+	(attr smd)
+	(fp_line
+		(start -0.4 -1.2)
+		(end 0.4 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0bd53298-b561-430f-a230-9aebcdc7245f")
+	)
+	(fp_line
+		(start -0.4 1.2)
+		(end 0.4 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad517371-daf0-4b11-ab62-7ea91a7451ec")
+	)
+	(fp_line
+		(start -1.6 -1.2)
+		(end 1.6 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2eb7c055-6a38-464f-be5e-51327f72d5c2")
+	)
+	(fp_line
+		(start -1.6 1.2)
+		(end -1.6 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8e3733d-3c3b-4cbc-b9da-9baa7da0a1a9")
+	)
+	(fp_line
+		(start 1.6 -1.2)
+		(end 1.6 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e5df4e2-421b-403d-93d2-e699aa050072")
+	)
+	(fp_line
+		(start 1.6 1.2)
+		(end -1.6 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2f64086-fe8b-4905-8429-d7bc68d4c004")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be1f96f8-4116-4816-927f-8c439e82b4af")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4bf4e9a0-d6a5-429d-b5ec-6cd5b023888c")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eeeee20d-0d57-41fd-a208-0deee22294ee")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1a18d42-d381-459c-9a7b-243a215aeaec")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5747c8b5-7600-47f6-981f-5d1cabbd94da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "415feabc-0f0e-427c-aa04-d277473770b6")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bfd87c5f-f4aa-4470-8606-b5e28c22a263")
+	)
+	(model "${KIPRJMOD}/4-Library/3-3DModels/DFE252012P-1R0M=P2.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
